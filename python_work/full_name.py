@@ -6,3 +6,7 @@ print(f"Hello, {full_name.title()}!")
 	#f-strings allow you to compose complete messages
 message = f"See you later, {full_name.title()}!"
 print(message)
+
+
+
+#Adding Whitespace to Strings with Tabs or Newlines
