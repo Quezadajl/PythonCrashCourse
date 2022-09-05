@@ -8,4 +8,6 @@ print("Languages: \n\tPython\nC\nJavaScript") #applying a newline with \n
 
 #Stripping whitespace
 favorite_language = 'python '
-print(favorite_language.rstrip(favorite_language))
+print(favorite_language.rstrip()) #right strip of whitespace
+ #lstrip clears whitespace from the left of the space
+ #strip clears whitespace on both sides of the comment/sentence
