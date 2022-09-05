@@ -1,2 +1,2 @@
-name = "James Holden"
+name = "james holden"
 print(name.title())
