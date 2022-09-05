@@ -9,4 +9,5 @@ print(my_babies)
 first_name = "Tania"
 last_name = "Davila"
 full_name = f"{first_name} {last_name}"
-print(full_name.title())
+print(full_name.upper())
+print(full_name.lower())
