@@ -11,4 +11,6 @@ message = f"See you later, {full_name.title()}!"
 
 #Adding Whitespace to Strings with Tabs or Newlines
 print("Python")
-print("\tPython") #applying a tab to my code
+print("\tPython") #applying a tab to my code with \t
+
+print("Languages: \t \nPython\nC\nJavaScript")
