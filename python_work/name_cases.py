@@ -20,4 +20,4 @@ motivation = f"{quote}!? - {author}"
 print(motivation)
 
 #stripping names
-print("pokemon:Cyndaquil\n\tType:\n\t\tFire")
+print("pokemon:Cyndaquil\n\tType:\n\t\tFire") 
