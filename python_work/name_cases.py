@@ -18,3 +18,6 @@ author = "Thor"
 quote = "I am still worthy!"
 motivation = f"{quote}!? - {author}"
 print(motivation)
+
+#stripping names
+print("pokemon:Cyndaquil\n\tType:\n\t\tFire")
