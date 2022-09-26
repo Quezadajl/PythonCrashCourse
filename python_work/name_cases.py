@@ -16,7 +16,7 @@ print(full_name.title())
 #FamousQuote
 author = "Thor"
 quote = "I am still worthy!"
-motivation = f"{quote}!? - {author}"
+motivation = f"{quote}! - {author}"
 print(motivation)
 
 #stripping names
