@@ -1,5 +1,5 @@
 #Avoiding Syntax Errors
-message = "One of Python's strengths is its diverse community."
+message = "One of Python's strengths is its diverse community. - Joselit Questlove"
 print(message)
 #error
 #message = 'One of Python's strengths is its diverse community.'
