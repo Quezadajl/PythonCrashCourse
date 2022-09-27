@@ -5,3 +5,6 @@ print(bicycles[0])
 #mix index with formating
 print(bicycles[0].title())
 print(bicycles[-1].upper())# index -1 always returns the last item on the list
+####
+message=f"My first bicycle was a {bicycles[0].title()}."
+print(message)
