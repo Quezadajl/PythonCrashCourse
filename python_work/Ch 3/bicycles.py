@@ -8,3 +8,6 @@ print(bicycles[-1].upper())# index -1 always returns the last item on the list
 ####
 message=f"My first bicycle was a {bicycles[2].title()}."#using f-strings in messages w/indexes
 print(message)
+###Excersis 3-1##
+names = ['martin','Sophie','Lola','Tania']
+print(names[0])
