@@ -6,5 +6,5 @@ print(bicycles[0])
 print(bicycles[0].title())
 print(bicycles[-1].upper())# index -1 always returns the last item on the list
 ####
-message=f"My first bicycle was a {bicycles[0].title()}."#using f-strings in messages w/indexes
+message=f"My first bicycle was a {bicycles[2].title()}."#using f-strings in messages w/indexes
 print(message)
