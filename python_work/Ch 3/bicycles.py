@@ -12,5 +12,5 @@ print(message)
 names = ['martin','sophie','lola','Tania']
 print(names[0])
 ##greetings##
-greetings = f"{names[2]} really likes to follow {names[0]} while {names[1]} just watches"
+greetings = f"{names[2]} really likes to follow {names[0]} when he chases the {bicycles[-4]} while {names[1]} just watches"
 print(greetings)
