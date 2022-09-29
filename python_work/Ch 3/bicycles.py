@@ -11,3 +11,6 @@ print(message)
 ###Excersis 3-1##
 names = ['martin','Sophie','Lola','Tania']
 print(names[0])
+##greetings##
+greetings = f"{names[2]} really likes to follow {names[0]} while {names[1]} just watches"
+print(greetings)
