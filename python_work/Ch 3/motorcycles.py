@@ -13,3 +13,6 @@ my_doggies.append('Sophie')
 my_doggies.append('Alolamola')
 
 print(my_doggies)
+#Deleting and Inserting in an element in a specific place
+del my_doggies[2]
+print(my_doggies)
