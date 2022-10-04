@@ -23,4 +23,4 @@ print(my_doggies)
 #Using Pop() method removes the last item in a list, but it lets you work with that item after removing it.
 popped_motorcycles = motorcycles.pop()
 print(motorcycles)
-print(popped_motorcycles)
+print(popped_motorcycles)# pop() shows that ducati was removed
