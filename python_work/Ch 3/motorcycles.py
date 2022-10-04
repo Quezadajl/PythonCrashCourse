@@ -16,3 +16,6 @@ print(my_doggies)
 #Deleting and Inserting in an element in a specific place
 del my_doggies[2]
 print(my_doggies)
+
+my_doggies.insert(2,'Lola')
+print(my_doggies)
