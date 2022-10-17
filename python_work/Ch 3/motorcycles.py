@@ -33,5 +33,5 @@ treats.append('chocolate')
 treats.append('coffee')
 print(treats)
 
-first_treat = treats.pop(0)
+first_treat = treats.pop(1) #pop allows us to use an item that has been removed from the list
 print(f'the first treat I really enjoyed was {first_treat.title()}.')
