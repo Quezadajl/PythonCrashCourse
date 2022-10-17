@@ -26,3 +26,12 @@ print(motorcycles)
 print(last_owned)# pop() shows that ducati was removed from the end of the list and is now assigned to the variable last_owned
 
 print(f"The last motorecycle I owned was a {last_owned.title()}.")
+#Pop() can be used to pull items from any part of the list
+treats = []
+treats.append('pretzels')
+treats.append('chocolate')
+treats.append('coffee')
+print(treats)
+
+first_treat = treats.pop(0)
+print(f'the first treat I really enjoyed was {first_treat.title()}.')
