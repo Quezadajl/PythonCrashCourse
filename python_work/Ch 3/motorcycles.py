@@ -79,4 +79,3 @@ del guest[0]
 del guest[1]
 del guest[0]
 print(guest)
-print(first_uninvited)
