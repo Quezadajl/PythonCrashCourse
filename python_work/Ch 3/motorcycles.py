@@ -76,4 +76,5 @@ second_uninvited = guest.pop(0)
 print(f'sorry {second_uninvited}, my table is smaller')
 print(f'thanks {guest[0]} for bringing chips, thank you {guest[1]} for bringind dip, and thank you {guest[2]} for the drinks!')
 del guest[0]
+del guest[1]
 print(guest)
