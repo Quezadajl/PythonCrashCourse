@@ -70,3 +70,6 @@ print(f'The following person is invited to my dinner party: {guest[3]}')
 print(f'The following person is invited to my dinner party: {guest[4]}')
 
 print(f'I am so sorry {guest}, I can only invite two of you!')
+first_uninvited = guest.pop(2)
+print(f'sorry {first_uninvited}, my table is smaller')
+print(guest)
