@@ -53,6 +53,10 @@ guest.append('martinini')
 guest.append('alola')
 guest.append('Sophilicious')
 print(guest)
+
+print(f'{guest[1]} can make it but someone else will replace them')
+guest[1] = 'Sandy'
+print(guest)
 print(f'The following person is invited to my dinner party: {guest[2]}')
 print(f'The following person is invited to my dinner party: {guest[0]}')
 print(f'The following person is invited to my dinner party: {guest[-2]}')
