@@ -14,3 +14,7 @@ print(cars)
 #Reverse chronological order
 cars.reverse()
 print(cars)
+
+#finding the length of a list
+length = len(cars)
+print(length)
