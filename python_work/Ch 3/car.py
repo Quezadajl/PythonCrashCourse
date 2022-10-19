@@ -2,7 +2,11 @@ cars = ['bmw', 'audi', 'toyota', 'subaru'] #upper or lower case can impact how t
 #cars.sort()
 print(cars)
 #Python's sort() method makes it relatively easy to sort a list
-cars.sort(reverse=True) #the reverse argument reverses ABD order
+#cars.sort(reverse=True) #the reverse argument reverses ABD order
 print(cars)
 print("Here is the original list:")
+print(cars)
+print('\nHere is the sorted list:')#The sorted function is a temporary sorting option
+print(sorted(cars))
+print("\nHere is the original list again")
 print(cars)
