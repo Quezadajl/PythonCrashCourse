@@ -10,3 +10,4 @@ for doggies in babies:#doggies is the variable I assigned to each print of the l
 magicians = ['alice','david','carolina'] #Defining the list
 for magician in magicians: #use the for loop as "for every magician in the list of magicians, print the magician's name"
 	print(f'{magician.title()}, that was a great trick!')
+	print(f"I can't wait to see your next trick, {magician.title()}.\n")
