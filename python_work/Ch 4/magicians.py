@@ -16,4 +16,4 @@ print("Thank you, everyone. That was a great magic show!")# Using print without 
 #4.1 Challenge
 pizza = ['pepperoni', 'pinapple','cheese']
 for flavors in pizza:
-	print(flavors)
+	print(f'I live {flavors}!\n')
