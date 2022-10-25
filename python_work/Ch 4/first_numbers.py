@@ -6,6 +6,6 @@ for value in range(1,5):
 for values in range(6):
 	print(values)
 	#with only one argument it returns the numbers in between 0 to 5
-#Using range() to make a list of numbers
+#Using range() to make a list of numbers using the list() function
 numbers = list(range(7))
 print(numbers)
