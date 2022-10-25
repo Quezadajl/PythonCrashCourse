@@ -10,5 +10,13 @@ for values in range(6):
 numbers = list(range(7))
 print(numbers)
 
+#creating list that skip-count
 even_numbers = list(range(3,15,2))
 print(even_numbers)
+
+#creating lists that use exponents
+squares = []
+for value in range(11):
+	squares.append(value**2)
+
+print(squares)
