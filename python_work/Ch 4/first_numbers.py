@@ -20,3 +20,9 @@ for value in range(11):
 	squares.append(value**2)
 
 print(squares)
+
+#using simple statistics with a list of numbers
+stats_list = list(range(1,20,2))
+print(min(stats_list))
+print(max(stats_list))
+print(sum(stats_list))
