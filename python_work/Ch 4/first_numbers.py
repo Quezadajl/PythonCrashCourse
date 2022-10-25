@@ -9,3 +9,6 @@ for values in range(6):
 #Using range() to make a list of numbers using the list() function
 numbers = list(range(7))
 print(numbers)
+
+even_numbers = list(range(3,15,2))
+print(even_numbers)
