@@ -16,4 +16,10 @@ print("Thank you, everyone. That was a great magic show!")# Using print without 
 #4.1 Challenge
 pizza = ['pepperoni', 'pinapple','cheese']
 for flavors in pizza:
-	print(f'I live {flavors}!\n')
+	print(f'I live {flavors} pizza!\n')
+print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
+
+#4.2 Challenge
+animals = ['dog', 'dragon', 'plant']
+for pets in animals:
+	print(f'I believe that a {pets} make the best pets!\n\t')
