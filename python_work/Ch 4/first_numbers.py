@@ -34,7 +34,6 @@ print(sum(stats_list))
 #List Comprehensions: Example below
 exponent = [ value**2 for value in range(11)]
 #Descriptive name for the list and defining the expression with the values you want to store inside
-#
 print(exponent)
 print(squares)
 #This list compression composers the same function in one line instead of three or four
