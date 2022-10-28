@@ -14,3 +14,7 @@ print("Here are the first three players on my team:")
 for player in names[:3]:
 	print(player.title())
 	#Instead of looping through the entire list, Python loops through only the first three names
+
+#Practice: Slicing with Numbers
+number = [value for value in range(1,51)]
+print(number[-5:])
