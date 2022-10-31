@@ -11,3 +11,8 @@ favorite_language = 'python '
 print(favorite_language.rstrip()) #right strip of whitespace
  #lstrip clears whitespace from the left of the space
  #strip clears whitespace on both sides of the comment/sentence
+
+ #Practice: stripping whitespace
+developer_language = '  Python '
+print(developer_language.rstrip())
+print(developer_language.lstrip())
