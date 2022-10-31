@@ -21,3 +21,6 @@ number.insert(-1,'hola')#Inserting into a list
 print(number[-5:])#Using the negative as an example of pulling the last 5 entries or most recent on dataset
 
 #Practice: Slicing with Numbers
+digit = [number for number in range(1,10000000)]
+digit.insert(-1,'3.14')
+print(digit[-4:])
