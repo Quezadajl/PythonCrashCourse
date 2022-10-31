@@ -17,5 +17,7 @@ for player in names[:3]:
 
 #Practice: Slicing with Numbers
 number = [value for value in range(1,51)] #practicing for loops
-number.insert(-1,'hola')
+number.insert(-1,'hola')#Inserting into a list
 print(number[-5:])#Using the negative as an example of pulling the last 5 entries or most recent on dataset
+
+#Practice: Slicing with Numbers
