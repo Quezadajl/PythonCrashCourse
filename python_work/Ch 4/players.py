@@ -26,5 +26,6 @@ digit.insert(-1,'3.14')
 print(digit[-4:])
 
 #Practice 4.10 & 4.11
-print(f'\nThe first three items in the list are:{names[0:3]}')
+print(f'\nThe first three items in the list are:{names[:3]}')
 print(f'\nThe middle three items in the list are:{names[2:5]}')
+print(f'\nThe last three items in the list are:{names[-3:]}')
