@@ -8,7 +8,7 @@ friend_foods = my_foods[:] #Using the colon with square brackets copies everythi
 print("My favorite food are:")
 print(my_foods)
 
-print("\nMy frined's favorite foods are:")
+print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
 my_foods.append('Pho')
