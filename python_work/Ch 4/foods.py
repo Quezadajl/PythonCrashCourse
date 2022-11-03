@@ -1,9 +1,9 @@
 my_foods = ['pizza','thai curry','tinga']
 print(my_foods)
-my_foods.insert(0,'briyani') #Insert added biriyani to where ever you appointed it to
-my_foods[0] = ('tofu')
+my_foods.insert(-1,'briyani') #Insert added biriyani to where ever you appointed it to; in this case at the end
+my_foods[0] = ('tofu') #replaced pizza with tofu
 friend_foods = my_foods[:] #Using the colon with square brackets copies everything on the list for reusing a list
-#We make a cop by asking for a slice w/o specifying any indices and store the copy list
+#We make a copy by asking for a slice w/o specifying any indices and store the copy list
 
 print("My favorite food are:")
 print(my_foods)
