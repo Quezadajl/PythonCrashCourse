@@ -24,3 +24,7 @@ print(number[-5:])#Using the negative as an example of pulling the last 5 entrie
 digit = [number for number in range(1,10000000)]
 digit.insert(-1,'3.14')
 print(digit[-4:])
+
+#Practice 4.10 & 4.11
+print(f'\nThe first three items in the list are:{names[0:3]}')
+print(f'\nThe middle three items in the list are:{names[2:5]}')
