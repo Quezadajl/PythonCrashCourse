@@ -40,4 +40,8 @@ for toppings in pizza:
 #Challenge 4-12 More Loops
 print(f" My favorite foods are:")
 for dishes in my_foods:
-	print(f"{dishes}!\n")
+	print(f"{dishes.title()}!\n")
+
+print(f"Some of Tania's favorite foods include:")
+for treats in friend_foods:
+	print(f"{treats.title()}!\n\t")
