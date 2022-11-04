@@ -29,6 +29,7 @@ print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with j
 
 friends_pizza = pizza[:]
 print(friends_pizza)
-friends_pizza.append('jalapenos')
+pizza.append('jalapenos')
+friends_pizza.insert(3,'ham')
 print(pizza)
 print(friends_pizza)
