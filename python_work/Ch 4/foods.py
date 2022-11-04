@@ -33,3 +33,6 @@ pizza.append('jalapenos')
 friends_pizza.insert(3,'ham')
 print(pizza)
 print(friends_pizza)
+print(f"My friend's favorite pizzas are:")
+for toppings in pizza:
+	print(f"{toppings} pizza!\n")
