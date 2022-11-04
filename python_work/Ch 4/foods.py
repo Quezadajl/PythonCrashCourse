@@ -36,3 +36,8 @@ print(friends_pizza)
 print(f"My friend's favorite pizzas are:")
 for toppings in pizza:
 	print(f"{toppings} pizza!\n")
+
+#Challenge 4-12 More Loops
+print(f" My favorite foods are:")
+for dishes in my_foods:
+	print(f"{dishes}!\n")
