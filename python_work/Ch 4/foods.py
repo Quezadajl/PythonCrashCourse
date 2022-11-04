@@ -19,3 +19,16 @@ print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
+
+#Practice 4-11
+#4.1 Challenge redux
+pizza = ['pepperoni', 'pinapple','cheese']
+for flavors in pizza:
+	print(f'I love {flavors} pizza!\n')
+print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
+
+friends_pizza = pizza[:]
+print(friends_pizza)
+friends_pizza.append('jalapenos')
+print(pizza)
+print(friends_pizza)
