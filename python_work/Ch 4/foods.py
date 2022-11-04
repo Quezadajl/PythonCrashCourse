@@ -25,7 +25,7 @@ print(friend_foods)
 pizza = ['pepperoni', 'pinapple','cheese']
 for flavors in pizza:
 	print(f'I love {flavors} pizza!\n')
-print(f'\nI can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
+print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!\n')
 
 friends_pizza = pizza[:]
 print(friends_pizza)
