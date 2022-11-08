@@ -8,3 +8,8 @@ print(dimensions[:1])
 #dimensions[0] = 150 #error code reads : 'tuple' object does not support item assignment
 my_t = (3,) #tuple with one element
 print(my_t)
+
+print(f'We can loop over all the values in a tuple using a for loop:\n')
+dimensions = (100,50)
+for dimension in dimensions:
+	print(dimension)
