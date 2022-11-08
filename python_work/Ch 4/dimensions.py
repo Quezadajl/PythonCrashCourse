@@ -12,10 +12,11 @@ print(f'{my_t}\n')
 
 dimensions = (100,50)
 for dimension in dimensions:
-	print(f'{dimension}\n')
+	print(f'\n{dimension}')
 
 #Writing over a tuple
 dimensions = (200,50)
-print("Original dimensions:\n")
+print("\nOriginal dimensions:")
 for dimension in dimensions:
 	print(dimension)
+print('')
