@@ -9,7 +9,6 @@ print(dimensions[:1])
 my_t = (3,) #tuple with one element
 print(f'{my_t}\n')
 
-
 dimensions = (200,50)
 for dimension in dimensions:
 	print(f'\n{dimension}')
@@ -24,3 +23,7 @@ dimensions = (400,100)
 print('\nModified dimensions:')
 for dimension in dimensions:
 	print(dimension)
+
+#Challenge 4-13
+buffet = ("rice", 'beans', 'guac', 'salsa', 'crema')
+print(buffet)
