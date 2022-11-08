@@ -10,7 +10,7 @@ my_t = (3,) #tuple with one element
 print(f'{my_t}\n')
 
 
-dimensions = (100,50)
+dimensions = (200,50)
 for dimension in dimensions:
 	print(f'\n{dimension}')
 
@@ -19,4 +19,8 @@ dimensions = (200,50)
 print("\nOriginal dimensions:")
 for dimension in dimensions:
 	print(dimension)
-print('')
+
+dimensions = (400,100)
+print('\nModified dimensions:')
+for dimension in dimensions:
+	print(dimension)
