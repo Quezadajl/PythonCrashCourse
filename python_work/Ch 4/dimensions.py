@@ -13,3 +13,9 @@ print(f'We can loop over all the values in a tuple using a for loop:\n')
 dimensions = (100,50)
 for dimension in dimensions:
 	print(dimension)
+
+#Writing over a tuple
+dimensions = (200,50)
+print("Original dimensions:\n")
+for dimension in dimensions:
+	print(dimension)
