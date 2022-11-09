@@ -25,5 +25,7 @@ for dimension in dimensions:
 	print(dimension)
 
 #Challenge 4-13
-buffet = ("rice", 'beans', 'guac', 'salsa', 'crema')
+buffet = ('rice', 'beans', 'guac', 'salsa', 'crema')
 print(buffet)
+for meal in buffet:
+	print(meal)
