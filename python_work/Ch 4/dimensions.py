@@ -25,7 +25,8 @@ for dimension in dimensions:
 	print(dimension)
 
 #Challenge 4-13
-buffet = ('rice', 'beans', 'guac', 'salsa', 'crema')
+buffet = ('rice', 'beans', 'guac', 'salsa', 'crema')#Create a tuple of 5 foods at a buffet
 print(buffet)
-for meal in buffet:
+for meal in buffet: #Create a for loop to print each item
 	print(meal)
+buffet[3] = ('fajitas') #tried to modify a tuple
