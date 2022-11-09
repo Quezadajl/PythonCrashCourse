@@ -30,3 +30,6 @@ print(buffet)
 for meal in buffet: #Create a for loop to print each item
 	print(meal)
 #buffet[3] = ('fajitas') #tried to modify a tuple; immutable
+
+hello = ("hello")
+print(hello)
