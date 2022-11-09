@@ -29,4 +29,4 @@ buffet = ('rice', 'beans', 'guac', 'salsa', 'crema')#Create a tuple of 5 foods a
 print(buffet)
 for meal in buffet: #Create a for loop to print each item
 	print(meal)
-buffet[3] = ('fajitas') #tried to modify a tuple
+#buffet[3] = ('fajitas') #tried to modify a tuple; immutable
