@@ -15,3 +15,12 @@ for good_dog in doggos:
 		print(good_dog.title())
 	else:
 		print(f'\nBestest of Doggos!!')
+
+#Conditional statements
+auto = ['audi']
+
+for vehicle in auto:
+	if vehicle == 'audi':
+		print(True)
+	else:
+		print(False)
