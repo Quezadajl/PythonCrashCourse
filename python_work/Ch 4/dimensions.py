@@ -31,5 +31,5 @@ for meal in buffet: #Create a for loop to print each item
 	print(meal)
 #buffet[3] = ('fajitas') #tried to modify a tuple; immutable
 
-competition_buffet = buffet[:]
+competition_buffet = buffet[:] #copy of the tuple
 print(competition_buffet)
