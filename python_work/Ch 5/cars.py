@@ -14,4 +14,4 @@ for good_dog in doggos:
 	if good_dog =='chuying':
 		print(good_dog.title())
 	else:
-		print(cars[0:4])
+		print(f'\nBestest of Doggos!!')
