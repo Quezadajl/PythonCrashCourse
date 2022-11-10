@@ -24,3 +24,10 @@ for vehicle in auto:
 		print(True)
 	else:
 		print(False)
+
+
+for vehicle in auto:
+	if vehicle == 'infiniti':
+		print(True)
+	else:
+		print(False)
