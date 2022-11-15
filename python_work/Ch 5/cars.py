@@ -8,10 +8,10 @@ for car in cars:
 		print(car.title())#if the value of car is anthing othar than 'bmw', title case it
 
 #Practice
-doggos = ['Paper','chuying','Rock','Scissors']
+doggos = ['Paper','chuying/Eugene','Rock','Scissors']
 
 for good_dog in doggos:
-	if good_dog =='chuying':
+	if good_dog =='chuying/Eugene':
 		print(good_dog.title())
 	else:
 		print(f'\nBestest of Doggos!!')
