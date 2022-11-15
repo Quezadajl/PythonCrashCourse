@@ -17,17 +17,17 @@ for good_dog in doggos:
 		print(f'\nBestest of Doggos!!')
 
 #Conditional statements
-auto = ['audi']
+auto = ['Audi']
 
 for vehicle in auto:
-	if vehicle == 'audi':
+	if vehicle == 'Audi':
 		print(True)
 	else:
 		print(False)
 
 
 for vehicle in auto:
-	if vehicle == 'infiniti':
+	if vehicle == 'audi':
 		print(True)
 	else:
 		print(False)
