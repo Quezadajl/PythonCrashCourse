@@ -31,3 +31,5 @@ for vehicle in auto:
 		print(True)
 	else:
 		print(False)
+
+next_chapter = print(f'\nCheckin for inequalities: Next Section\n')
