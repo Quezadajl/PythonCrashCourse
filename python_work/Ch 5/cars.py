@@ -33,3 +33,8 @@ for vehicle in auto:
 		print(False)
 
 next_chapter = print(f'\nCheckin for inequalities: Next Section\n')
+
+requested_topping = 'mushrooms'
+
+if requested_topping != 'anchovies':
+	print("Hold the anchovies!")
