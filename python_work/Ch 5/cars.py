@@ -5,7 +5,7 @@ for car in cars:
 	if car == 'bmw':#if the value of car is 'bmw' upper case
 		print(car.upper())
 	else:
-		print(car.title())#if the value of car is anthing othar than 'bmw', title case it
+		print(car.title())#otherwise the value of car is anthing othar than 'bmw', title case it
 
 #Practice
 doggos = ['Paper','chuying/Eugene','Rock','Scissors']
