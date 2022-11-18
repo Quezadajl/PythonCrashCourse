@@ -46,4 +46,7 @@ if answer != 42:
 	print("That is not the correct answer. Please Try again!\n")
 #Teh conditional test passes, since the answer is not = 17, the intended code block is executed
 
+requested_toppings = 'pepperoni'or'pinapple'#Here I'm checking if these items are in the fridge
 
+if requested_topping != ['mushrooms','onions','pinapple']: #These are the only registered items in my list
+	print(f'Google add {requested_toppings} to shopping list!')#make request to add to shopping list if missing or low
