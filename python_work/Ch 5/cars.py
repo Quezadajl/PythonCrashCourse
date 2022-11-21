@@ -45,8 +45,6 @@ answer = 15
 
 if answer != 42:
 	print("That is not the correct answer. Please Try again!\n")
-else: answer = 15
-print("yes!!")
 #The conditional test passes, since the answer is not = 17, the intended code block is executed
 
 requested_toppings = 'pepperoni'or'pinapple'#Here I'm checking if these items are in the fridge
