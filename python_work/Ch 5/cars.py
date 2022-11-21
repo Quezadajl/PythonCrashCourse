@@ -32,7 +32,7 @@ for vehicle in auto:
 	else:
 		print(False)
 
-next_section= print(f'\nCheckin for inequalities: Next Section\n')#toppings.py
+next_section= print(f'\nChecking for inequalities: Next Section\n')#toppings.py
 
 requested_topping = 'mushrooms' 
 
@@ -41,10 +41,13 @@ if requested_topping != 'anchovies': #This line compares the value or requested_
 
 next_section= print(f'\nCheckin for inequalities: Next Section\n')#magic_number.py
 
-answer = 17
+answer = 15
+
 if answer != 42:
 	print("That is not the correct answer. Please Try again!\n")
-#Teh conditional test passes, since the answer is not = 17, the intended code block is executed
+else: answer = 15
+print("yes!!")
+#The conditional test passes, since the answer is not = 17, the intended code block is executed
 
 requested_toppings = 'pepperoni'or'pinapple'#Here I'm checking if these items are in the fridge
 
