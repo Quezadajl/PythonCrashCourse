@@ -27,3 +27,11 @@ for treat in needed_ingredients:
 	else:
 		#I like these other snacks, but not my favorite
 		print("We will need %s from the store." % treat)
+
+#Trying other conditional tests: if-else statements
+dogs = ['Sophie','Martin','Lola']
+
+if len(dogs) > 3:
+	print("Wow, we have a lot of dogs here!")
+else:
+	print("Okay, this is a reasonable number of dogs.")
