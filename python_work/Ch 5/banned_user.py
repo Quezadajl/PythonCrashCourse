@@ -9,6 +9,6 @@ if user not in banned_users:
 #Coditional Test 5-1
 car = 'Subaru'
 print("is car == 'subaru'? I predict True.")
-print(car == 'Subaru') # Case is important with conditional tests, 
+print(car == 'subaru') # Case is important with conditional tests, hence why it's false if lower case
 print("\nIs car == 'audi'? I predict False")
 print(car == 'audi')
