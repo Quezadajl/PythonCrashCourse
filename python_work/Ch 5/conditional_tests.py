@@ -54,3 +54,8 @@ dogs_present = ['willie', 'hootz']
 for dog in dogs_present:
 	if dog in dogs_we_know:
 		print("Hello, %s!" % dog.title())
+#True/False statements- The general rule is that any non-zero or non-empty value will evaluate to True
+if None:
+    print("This evaluates to True.")
+else:
+    print("This evaluates to False.")
