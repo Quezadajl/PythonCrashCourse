@@ -28,10 +28,20 @@ for treat in needed_ingredients:
 		#I like these other snacks, but not my favorite
 		print("We will need %s from the store." % treat)
 
-#Trying other conditional tests: if-else statements
-dogs = ['Sophie','Martin','Lola']
+#Trying other conditional tests: if-else statements and chains
+dogs = ['Dante','Myla','Bunior(cat)']
 
-if len(dogs) > 3:
+if len(dogs) >= 3:
 	print("Wow, we have a lot of dogs here!")
+else:
+	print("Okay, this is a reasonable number of dogs.")
+
+#and if-else chains
+dogs = ['Sophie','Martin','Lola','Chuying','Guegene']
+
+if len(dogs) >= 5:
+	print("Wow,we might start a dog hostel!")
+elif len(dogs) >= 3:
+	print("wow, we have a lot of dogs here!")
 else:
 	print("Okay, this is a reasonable number of dogs.")
