@@ -23,3 +23,8 @@ for snack in snacks:
 	else:
 		#I like these other snacks, but not my favorite
 		print("I like %s." % snack)
+
+## other Tests for inequality and equality
+requested_topping = 'pineapple'
+if requested_topping != 'jalapenos':
+	print("Hold the jalapenos!")
