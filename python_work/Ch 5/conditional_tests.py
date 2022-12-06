@@ -45,3 +45,12 @@ elif len(dogs) >= 3:
 	print("wow, we have a lot of dogs here!")
 else:
 	print("Okay, this is a reasonable number of dogs.")
+# if the previous two conditions fail, the else condition is executed; we could keep adding elifs
+
+#of course, using lists and loops can be more clean
+dogs_we_know = ['willie', 'hootz', 'peso', 'monty', 'juno', 'turkey']
+dogs_present = ['willie', 'hootz']
+#This will go through all the dogs that are present, and greet the dogs we know
+for dog in dogs_present:
+	if dog in dogs_we_know:
+		print("Hello, %s!" % dog.title())
