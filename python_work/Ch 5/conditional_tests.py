@@ -17,9 +17,6 @@ requested_topping = 'pineapple'
 if requested_topping != 'jalapenos':
 	print("Hold the jalapenos!")
 
-requested_snacks = ['doritos'or'popcorn'or'chocolate'] #Here I'm checking if these items are in the pantry
-for treat in requested_snacks:
-	if requested_snacks == 'Fruit': #These are the only registered items in my list
-		print(f'Google add {requested_snacks} to shopping list!')#make request to add to shopping list if missing or low
-	else:
-		print(f"I'll take some {requested_snacks[0]}!")
+#Checking if an item is in a list
+vowels = ['a', 'e', 'i', 'o', 'u']
+'a' in vowels
