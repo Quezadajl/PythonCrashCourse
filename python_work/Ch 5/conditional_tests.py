@@ -1,16 +1,4 @@
 #Creating a list of conditional test to practice: 5-2
-# Testing equality && inequality
-desserts = ['ice cream', 'chocolate', 'apple crisp', 'cookies']
-favorite_dessert = 'apple crisp'
-
-# Print the desserts out, but let everyone know my favorite dessert.
-for dessert in desserts:
-    if dessert == favorite_dessert:
-        # This dessert is my favorite, let's let everyone know!
-        print("%s is my favorite dessert!" % dessert.title())
-    else:
-        # I like these desserts, but they are not my favorite.
-        print("I like %s." % dessert)
 
 snacks = ['peanuts','chocolate','doritos','popcorn']
 favorite_snack = 'doritos'
@@ -28,3 +16,10 @@ for snack in snacks:
 requested_topping = 'pineapple'
 if requested_topping != 'jalapenos':
 	print("Hold the jalapenos!")
+
+requested_snacks = ['doritos'or'popcorn'or'chocolate'] #Here I'm checking if these items are in the pantry
+for treat in requested_snacks:
+	if requested_snacks == 'Fruit': #These are the only registered items in my list
+		print(f'Google add {requested_snacks} to shopping list!')#make request to add to shopping list if missing or low
+	else:
+		print(f"I'll take some {requested_snacks[0]}!")
