@@ -9,3 +9,11 @@ else:
 	print('Pleae register to vote when you turn 18!')#All indented lines after an if statement will execute
 
 #Simple conditional tests: if conditional test: do something
+
+#The if-elif-else Chain
+if age <= 4:
+	print('admission is free')
+elif age >4 and age <18:
+	print('admission is $25')
+else:
+	print('18 and older pay $40')
