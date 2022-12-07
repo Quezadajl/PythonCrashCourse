@@ -10,10 +10,20 @@ else:
 
 #Simple conditional tests: if conditional test: do something
 
+#AMUSEMENTPARK.PY
 #The if-elif-else Chain
 if age <= 4:
 	print('admission is free')
-elif age >4 and age <18:
+elif age <18:
 	print('admission is $25')
 else:
 	print('18 and older pay $40')
+
+#Improved VERSION
+if age < 4:
+	price = 0
+elif age < 18:
+	price = 25
+else:
+	price = 40
+print(f'Your admission cost is ${price}.')
