@@ -42,3 +42,12 @@ if 'extra cheese' in requested_toppings:
 	print('Adding extra cheese.')
 
 print("\nFinished making your pizza!")
+
+#Moral of the practice
+block_of_code = ['if','elif']
+if'elif' in block_of_code:
+	print("if you want only ONE block of code to run, use an ifi-elif-else chain")
+if'if' in block_of_code:
+	print('if MORE than one block of code needs to run, use a series of independent if statements')
+
+print('\nThe more you know!')
