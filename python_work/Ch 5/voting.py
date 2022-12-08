@@ -26,7 +26,13 @@ elif age < 18:
 	price = 25
 elif age < 65:
 	price = 40
-else:
+#elif age >= 65:
+	#price = 20 You don't always need an else; not using one causes the last condition to be met as well
+else: #else can be misleading by accepting malicious data or invalid statements
 	price = 20
 print(f'Your admission cost is ${price}.')# improved maintaince by only have to modify one message
 
+#Testing Multiple conditions: TOPPINGS.PY
+requested_toppings = ['mushrooms','extra cheese']
+if 'mushrooms' in requested_toppings:
+	print()
