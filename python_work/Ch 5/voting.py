@@ -51,3 +51,12 @@ if'if' in block_of_code:
 	print('if MORE than one block of code needs to run, use a series of independent if statements')
 
 print('\nThe more you know!')
+
+requested_toppings = ['mushrooms','extra cheese','pepperoni']
+
+
+if 'mushrooms' in requested_toppings:
+	print('Adding mushrooms.')
+
+
+print("\nFinished making your pizza!")
