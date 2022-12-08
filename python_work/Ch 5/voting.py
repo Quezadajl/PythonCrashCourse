@@ -32,7 +32,13 @@ else: #else can be misleading by accepting malicious data or invalid statements
 	price = 20
 print(f'Your admission cost is ${price}.')# improved maintaince by only have to modify one message
 
-#Testing Multiple conditions: TOPPINGS.PY
+#Testing Multiple conditions AND ALL of them have to pass!!: TOPPINGS.PY
 requested_toppings = ['mushrooms','extra cheese']
 if 'mushrooms' in requested_toppings:
-	print()
+	print('Adding mushrooms.')
+if 'pepperoni' in requested_toppings:
+	print('Adding pepperoni.')
+if 'extra cheese' in requested_toppings:
+	print('Adding extra cheese.')
+
+print("\nFinished making your pizza!")
