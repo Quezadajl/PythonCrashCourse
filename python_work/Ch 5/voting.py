@@ -1,5 +1,5 @@
 #Practicing if && if-else statements
-age = 19
+age = 71
 #age = 17
 if age >= 18:
 	print('You are old enough to vote!')
@@ -24,6 +24,9 @@ if age < 4:
 	price = 0
 elif age < 18:
 	price = 25
-else:
+elif age < 65:
 	price = 40
-print(f'Your admission cost is ${price}.')
+else:
+	price = 20
+print(f'Your admission cost is ${price}.')# improved maintaince by only have to modify one message
+
