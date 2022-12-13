@@ -52,7 +52,7 @@ if'if' in block_of_code:
 
 print('\nThe more you know!\n')
 
-#Alien Colors #1
+#Alien Colors #5-1 through 5-5
 alien_color = ['Green','Yellow','Red']
 not_alien = ['Blue']
 if 'Green' in alien_color:
@@ -63,3 +63,12 @@ if 'Red' in alien_color:
 	print('15 points')
 if not_alien != alien_color:
 	print('you missed')
+
+#Stages of Life Practice
+edad = 14
+if edad < 2:
+	person = 'baby'
+if edad > 4:
+	person = 'toddler'
+
+print(f'Person is a {person}!')
