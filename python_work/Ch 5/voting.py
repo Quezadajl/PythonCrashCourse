@@ -55,4 +55,6 @@ print('\nThe more you know!\n')
 #Alien Colors #1
 alien_color = ['Green','Yellow','Red']
 if 'Green' in alien_color:
-	print(' 5 points')
+	print('5 points')
+else:
+	print('10 points')
