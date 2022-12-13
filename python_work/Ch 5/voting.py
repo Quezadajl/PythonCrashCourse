@@ -65,7 +65,7 @@ if not_alien != alien_color:
 	print('you missed')
 
 #Stages of Life Practice
-edad = 1
+edad = 29
 if edad < 2:
 	person = 'baby'
 elif edad < 4:
@@ -74,9 +74,9 @@ elif edad < 13:
 	person = 'kid'
 elif edad < 20:
 	person = 'teenager'
-if edad < 65:
+elif edad < 65:
 	person = 'Adult'
-if edad >= 65:
+elif edad >= 65:
 	person = 'elder'
 
 print(f'Person is a {person}!')
