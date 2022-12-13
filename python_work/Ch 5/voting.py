@@ -53,8 +53,12 @@ if'if' in block_of_code:
 print('\nThe more you know!\n')
 
 #Alien Colors #1
-alien_color = ['Green','Yellow','Red']
+alien_color = ['Blue','Yellow','Red']
 if 'Green' in alien_color:
 	print('5 points')
-else:
+elif 'Yellow' in alien_color:
 	print('10 points')
+elif 'Red' in alien_color:
+	print('15 points')
+else:
+	print('you missed')
