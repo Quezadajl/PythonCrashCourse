@@ -46,7 +46,7 @@ print("\nFinished making your pizza!")
 #Moral of the practice
 block_of_code = ['if','elif']
 if'elif' in block_of_code:
-	print("if you want only ONE block of code to run, use an ifi-elif-else chain")
+	print("if you want only ONE block of code to run, use an if-elif-else chain")
 if'if' in block_of_code:
 	print('if MORE than one block of code needs to run, use a series of independent if statements')
 
@@ -65,10 +65,18 @@ if not_alien != alien_color:
 	print('you missed')
 
 #Stages of Life Practice
-edad = 14
+edad = 1
 if edad < 2:
 	person = 'baby'
-if edad > 4:
+elif edad < 4:
 	person = 'toddler'
+elif edad < 13:
+	person = 'kid'
+elif edad < 20:
+	person = 'teenager'
+if edad < 65:
+	person = 'Adult'
+if edad >= 65:
+	person = 'elder'
 
 print(f'Person is a {person}!')
