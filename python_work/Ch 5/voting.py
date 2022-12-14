@@ -83,5 +83,5 @@ print(f'Person is a {person}!')
 
 #Favorite Fruit Excercise
 favorite_fruits = ['Kiwi','BlueBerries','mango']
-if favorite_fruits in 'Banana':
-	print('{favorite_fruits}')
+if 'Kiwi' in favorite_fruits:
+	print(f'You really like {favorite_fruits[0]}!')
