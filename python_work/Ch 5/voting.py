@@ -80,3 +80,8 @@ elif edad >= 65:
 	person = 'elder'
 
 print(f'Person is a {person}!')
+
+#Favorite Fruit Excercise
+favorite_fruits = ['Kiwi','BlueBerries','mango']
+if favorite_fruits in 'Banana':
+	print('{favorite_fruits}')
