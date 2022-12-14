@@ -85,3 +85,7 @@ print(f'Person is a {person}!')
 favorite_fruits = ['Kiwi','BlueBerries','mango']
 if 'Kiwi' in favorite_fruits:
 	print(f'You really like {favorite_fruits[0]}!')
+if 'Bananas' in favorite_fruits:
+	print(f'You really like bananas!')
+if 'BlueBerries' in favorite_fruits:
+	print(f'You really like {favorite_fruits[1]}!')	
