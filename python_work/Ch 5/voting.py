@@ -89,3 +89,7 @@ if 'Bananas' in favorite_fruits:
 	print(f'You really like bananas!')
 if 'BlueBerries' in favorite_fruits:
 	print(f'You really like {favorite_fruits[1]}!')	
+if 'Strawberries' in favorite_fruits:
+	print(f'You really like Strawberries!')
+if 'mango' in favorite_fruits:
+	print(f'You really like {favorite_fruits[-1]}!')
