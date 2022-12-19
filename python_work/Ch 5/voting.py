@@ -32,16 +32,6 @@ else: #else can be misleading by accepting malicious data or invalid statements
 	price = 20
 print(f'Your admission cost is ${price}.')# improved maintaince by only have to modify one message
 
-#Testing Multiple conditions AND ALL of them have to pass!!: TOPPINGS.PY
-requested_toppings = ['mushrooms','extra cheese']
-if 'mushrooms' in requested_toppings:
-	print('Adding mushrooms.')
-if 'pepperoni' in requested_toppings:
-	print('Adding pepperoni.')
-if 'extra cheese' in requested_toppings:
-	print('Adding extra cheese.')
-
-print("\nFinished making your pizza!")
 
 #Moral of the practice
 block_of_code = ['if','elif']
@@ -93,3 +83,21 @@ if 'Strawberries' in favorite_fruits:
 	print(f'You really like Strawberries!')
 if 'mango' in favorite_fruits:
 	print(f'You really like {favorite_fruits[-2]}!')
+
+#Testing Multiple conditions AND ALL of them have to pass!!: TOPPINGS.PY
+requested_toppings = ['mushrooms','green peppers','extra cheese']
+#if 'mushrooms' in requested_toppings:
+	#print('Adding mushrooms.')
+#if 'pepperoni' in requested_toppings:
+	#print('Adding pepperoni.')
+#if 'extra cheese' in requested_toppings:
+	#print('Adding extra cheese.')
+
+#print("\nFinished making your pizza!")*/
+
+for requested_topping in requested_toppings:
+	if requested_topping == 'green peppers':
+		print("Sorry, we are out of green peppers right now.")
+	else:
+		print(f"Adding {requested_topping}.")
+print("\nFinished making your pizza!")
