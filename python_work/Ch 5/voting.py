@@ -82,7 +82,7 @@ elif edad >= 65:
 print(f'Person is a {person}!')
 
 #Favorite Fruit Excercise
-favorite_fruits = ['Kiwi','BlueBerries','mango']
+favorite_fruits = ['Kiwi','BlueBerries','mango','Bananas']
 if 'Kiwi' in favorite_fruits:
 	print(f'You really like {favorite_fruits[0]}!')
 if 'Bananas' in favorite_fruits:
@@ -92,4 +92,4 @@ if 'BlueBerries' in favorite_fruits:
 if 'Strawberries' in favorite_fruits:
 	print(f'You really like Strawberries!')
 if 'mango' in favorite_fruits:
-	print(f'You really like {favorite_fruits[-1]}!')
+	print(f'You really like {favorite_fruits[-2]}!')
