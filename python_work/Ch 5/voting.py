@@ -94,6 +94,7 @@ if 'extra cheese' in requested_toppings:
 	print('Adding extra cheese.')
 
 print("\nFinished making your pizza!")
+
 requested_toppings = []
 
 if requested_toppings:
@@ -109,7 +110,7 @@ else:
 
 available_toppings = ['mushrooms','olives','green peppers','pepperoni','pineapple','extra cheese']
 
-requested_toppings = ['mushrooms','french fries','extra cheese']
+requested_toppings = ['mushrooms','french fries','extra cheese','pineapple']
 
 for requested_topping in requested_toppings:
 	if requested_topping in available_toppings:
