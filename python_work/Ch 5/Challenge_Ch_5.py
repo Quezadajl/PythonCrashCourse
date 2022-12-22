@@ -5,7 +5,7 @@ if usernames:
 		if usernames == 'Admin':
 			print("Hello admin, would you like to see a status report?")
 		else:
-			print(f"Adding {requested_topping}.")
-	print("\nFinished making your pizza!!")
+			print(f"Hello thank you for logging in again.")
+	#print("\nFinished making your pizza!!")
 else:
-	print("Are you sure you want a plain pizza?")
+	print("Did the email send?")
