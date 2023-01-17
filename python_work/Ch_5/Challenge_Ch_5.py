@@ -1,7 +1,6 @@
 #Hello Admin challenge
 usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin','Chimpchar']
 
-usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin']
 if 'totodile' in usernames:
 	print(f'Hello! thank you for logging in again.')
 if 'Cyndaquil' in usernames:
