@@ -22,3 +22,10 @@ for root in root_user:
 		#print('Hello! thank you for logging in again')
 	else:
 		print('We need to find some users!')
+
+current_users = ['Mario','Luigi','Pricess Peach','Toad','Yoshi','Bowser']
+new_users = ['Mario','Luigi','Princess Daisy', 'Rosalina']
+if new_users not in current_users:
+	print(f'{new_users.title()}, Username is available')
+else:
+	print(f'{new_users.title()}, Username is NOT available, must enter an new username')
