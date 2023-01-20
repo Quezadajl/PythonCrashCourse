@@ -23,11 +23,11 @@ for root in root_user:
 	else:
 		print('We need to find some users!')
 
-current_users = ['Mario','Luigi','Pricess Peach','Toad','Yoshi','Bowser']
-new_users = ['Mario','Luigi','Princess Daisy', 'Rosalina']
+current_users = ['Mario','Luigi','luigi','Pricess Peach','Toad','Yoshi']
+new_users = ['Mario','luigi','Princess Daisy', 'Rosalina','yoshi']
 
-For new_user in new_users:
-	if new_user not in current_users:
-		print(f'{new_users}, Username is available')
+for new_user in new_users:
+	if new_user.title() in current_users:
+		print(new_user,'is NOT available, must enter an new username')
 	else:
-		print(f'{new_users}, Username is NOT available, must enter an new username')
+		print(new_user, 'is available')
