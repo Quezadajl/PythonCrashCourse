@@ -23,11 +23,12 @@ for root in root_user:
 	else:
 		print('We need to find some users!')
 
-current_users = ['Mario','Luigi','luigi','Pricess Peach','Toad','Yoshi']
+current_users = ['Mario','Luigi','Pricess Peach','Toad','Yoshi']
 new_users = ['Mario','luigi','Princess Daisy', 'Rosalina','yoshi']
 
 for new_user in new_users:
-	if new_user.title() in current_users:
-		print(new_user,'is NOT available, must enter an new username')
+	if new_user.title() in current_users: #using .title() allows for the code to check for upper/lower case
+		print(new_user,'is NOT available, must enter an new username') #using the variable w/o 'f' or ' ' 
+		#helps make the output loop through each name individually and post it as its own line!!#mindblown
 	else:
 		print(new_user, 'is available')
