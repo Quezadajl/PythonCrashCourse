@@ -28,4 +28,4 @@ new_users = ['Mario','Luigi','Princess Daisy', 'Rosalina']
 if new_users not in current_users:
 	print(f'{new_users}, Username is available')
 else:
-	print(f'{new_users.title()}, Username is NOT available, must enter an new username')
+	print(f'{new_users}, Username is NOT available, must enter an new username')
