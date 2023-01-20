@@ -25,7 +25,9 @@ for root in root_user:
 
 current_users = ['Mario','Luigi','Pricess Peach','Toad','Yoshi','Bowser']
 new_users = ['Mario','Luigi','Princess Daisy', 'Rosalina']
-if new_users not in current_users:
-	print(f'{new_users}, Username is available')
-else:
-	print(f'{new_users}, Username is NOT available, must enter an new username')
+
+For new_user in new_users:
+	if new_user not in current_users:
+		print(f'{new_users}, Username is available')
+	else:
+		print(f'{new_users}, Username is NOT available, must enter an new username')
