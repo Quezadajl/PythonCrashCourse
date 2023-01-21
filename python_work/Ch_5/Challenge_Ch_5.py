@@ -34,7 +34,7 @@ for new_user in new_users:
 		print(new_user, 'is available')
 
 #Next challenge
-num = [1,2,3,4, 5, 6, 7, 8, 9]
+num = [1,2,3,4,5,6,7,8,9]
 
 for number in num:
 	if number == 1:
@@ -44,5 +44,6 @@ for number in num:
 	elif number == 3:
 		print('3rd')
 	elif number > 3:
-		print(str(number) + 'th')
+		print(str(number) + 'th') # this combination of str + 'th' allows for any number in the list
+		#..above 3 will be
 
