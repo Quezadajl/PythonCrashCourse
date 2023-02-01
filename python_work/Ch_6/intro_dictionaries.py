@@ -18,3 +18,8 @@ print(alien_0)
 #modifying a current Dictionary
 alien_0['color'] = 'yellow'
 print(alien_0)
+
+#Tracking information based on if-elif-else statement
+
+alien_0['speed'] = {'medium'}
+print(alien_0)
