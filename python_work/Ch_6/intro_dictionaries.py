@@ -21,7 +21,7 @@ print(alien_0)
 
 #Tracking information based on if-elif-else statement
 
-alien_0['speed'] = 'medium'
+alien_0['speed'] = 'fast'
 print(alien_0)
 
 #Move the alien to the right
