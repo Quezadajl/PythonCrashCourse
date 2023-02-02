@@ -22,7 +22,7 @@ print(alien_0)
 #Tracking information based on if-elif-else statement
 
 alien_0['speed'] = 'fast'
-print(alien_0)
+print(f"Original Position: {alien_0['x_position']}")
 
 #Move the alien to the right
 #Determine how far to move the alien based on its current speed
