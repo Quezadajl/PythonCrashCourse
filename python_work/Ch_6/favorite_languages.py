@@ -16,5 +16,13 @@ print(f"Sarah's favorite language is {language}.")
 #Using get() to Access Values
 # alien_no_points.py
 
-alien_0 = {'color': 'green', 'speed':'slow'}
-print(alien_0['points'])
+alien_0 = {
+	'color': 'green', 
+	'speed':'slow', 
+	#'points':5,
+	}
+#Working around the traceback error especifically for this, we have used the get method to bypass it
+#The get() method requires a key for first argument, and an optional second argument to return a value..
+#..if first argument is null
+point_value = alien_0.get('points','No point value assigned.')
+print(point_value)
