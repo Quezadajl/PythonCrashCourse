@@ -39,3 +39,9 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 
 print(f"New position: {alien_0['x_position']}")
+
+# Removing key-value pairs
+alien_0 = {'color':'green', 'points': 5}
+
+del alien_0['points']
+print(alien_0)
