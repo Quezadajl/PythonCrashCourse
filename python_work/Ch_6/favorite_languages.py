@@ -17,12 +17,15 @@ print(f"Sarah's favorite language is {language}.")
 # alien_no_points.py
 
 alien_0 = {
-	'color': 'green', 
+	#'color': 'green', 
 	'speed':'slow', 
-	#'points':5,
+	'points':5,
 	}
 #Working around the traceback error especifically for this, we have used the get method to bypass it
 #The get() method requires a key for first argument, and an optional second argument to return a value..
 #..if first argument is null
 point_value = alien_0.get('points','No point value assigned.')
 print(point_value)
+
+color_get = alien_0.get('color', 'No color value assigned')
+print(color_get)
