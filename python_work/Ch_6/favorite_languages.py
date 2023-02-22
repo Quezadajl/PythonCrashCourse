@@ -6,6 +6,8 @@ favorite_games = {
 	'Linda':'Marble Game',
 }
 print(favorite_games)
+favorite_games['Luisito'] = 'pokemon'
+print(favorite_games)
 
 
 
