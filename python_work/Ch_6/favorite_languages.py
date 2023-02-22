@@ -8,9 +8,10 @@ favorite_games = {
 print(favorite_games)
 favorite_games['Luisito'] = 'pokemon'
 print(favorite_games)
+game = favorite_games['Luisito'].title()
+print(f"Luisito's favorite game is {game}.")
 
-
-
+#########################################
 
 favorite_languages = {
 	'jen': 'python',
