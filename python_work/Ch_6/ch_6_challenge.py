@@ -27,3 +27,6 @@ glossary = {'string': 'A series of characters.',
 
 print(f"String:{glossary['string']}")
 print(f"\n comment: {glossary['comment']}")
+print(f"\n lists: {glossary['list']}")
+print(f"\n loop: {glossary['loop']}")
+print(f"\n dictionary:{glossary['dictionary']}")
