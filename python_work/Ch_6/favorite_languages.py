@@ -1,4 +1,15 @@
 #Creating a Dictionary from scratch of similar objects
+favorite_games = {
+	'juandiego': 'Yakuza',
+	'Ulysses':'Fortnite',
+	'Paty':'Phase 10',
+	'Linda':'Marble Game',
+}
+print(favorite_games)
+
+
+
+
 favorite_languages = {
 	'jen': 'python',
 	'sarah': 'c',
