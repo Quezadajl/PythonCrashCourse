@@ -23,6 +23,7 @@ glossary = {'string': 'A series of characters.',
     'list': 'A collection of items in a particular order.',
     'loop': 'Work through a collection of items, one at a time.',
     'dictionary': "A collection of key-value pairs.",}
-print(glossary)
+#print(glossary)
 
 print(f"String:{glossary['string']}")
+print(f"\n comment: {glossary['comment']}")
