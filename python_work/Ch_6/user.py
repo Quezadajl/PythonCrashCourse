@@ -31,3 +31,13 @@ print(f"\n\tSarah's favorite language is {language}.")
 
 for name, language in favorite_languages.items():
 	print(f"\n{name.title()}'s favorite language is {language.title()}")
+
+
+##########################################
+#Looping through the keys in a dictionary
+
+for name in favorite_languages.keys():  # Using the keys() method
+	print(name.title())
+
+for name in favorite_languages:  #printing keys is the default behavior w/o the method keys()
+	print(name.title())
