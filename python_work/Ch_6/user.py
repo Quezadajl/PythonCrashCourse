@@ -9,3 +9,8 @@ user_0 = {
 for key, value in user_0.items(): #include the name of a dictionary followed by method items()
 	print(f"\nKey:{key}")
 	print(f"Value:{value}")
+
+#use abbreviations too
+for k,v in user_0.items():
+	print(f"\nKey:{key}")
+	print(f"Value:{value}")
