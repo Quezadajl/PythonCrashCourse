@@ -41,3 +41,17 @@ for name in favorite_languages.keys():  # Using the keys() method
 
 for name in favorite_languages:  #printing keys is the default behavior w/o the method keys()
 	print(name.title())
+
+###############################
+
+#Accessing the value of any key inside the loop
+
+friends = ['phil','sarah']
+for name in favorite_languages.keys():
+	print(f"Hi {name.title()}.")
+	#we are going to include a special message to our friends
+if name in friends:
+	language = favorite_languages[name].title()
+	print(f"\t{name.title()}, I see you love {language}!")
+
+###THERE IS AN ERROR ON SARAH NOT GETTING A MESSAGE!!!
