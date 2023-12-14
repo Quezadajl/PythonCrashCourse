@@ -13,7 +13,15 @@ print(favorite_language.rstrip()) #right strip of whitespace
  #strip clears whitespace on both sides of the comment/sentence
 
  #Practice: stripping whitespace
-developer_language = '   Python '
+developer_language = ' .  Python    .  ' 
 print(developer_language.rstrip())
 print(developer_language.lstrip())
 print(developer_language.strip())
+
+
+#practice_clean
+code = 'clean'
+dirty = ' space'
+print(code.rstrip())
+print(dirty)
+print(dirty.strip())
