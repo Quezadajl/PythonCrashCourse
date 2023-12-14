@@ -19,8 +19,8 @@ print(full_name.title()) #First letter of each word capitalized
 print(my_babies.title().strip()) #testing multiple methods in the with strings
 
 #FamousQuote
-author = "Thor"
-quote = "I am still worthy!"
+author = "Thor  "
+quote = "  ... still worthy!  "
 motivation = f"{quote}! - {author}"
 print(motivation)
 
