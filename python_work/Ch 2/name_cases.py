@@ -22,7 +22,7 @@ print(my_babies.title().strip()) #testing multiple methods in the with strings
 author = "Thor  "
 quote = "  ... still worthy!  "
 motivation = f"{quote}! - {author}"
-print(motivation)
+print(motivation.strip())
 
 #stripping names
 print("pokemon:Cyndaquil\n\tType:\n\t\tFire") 
