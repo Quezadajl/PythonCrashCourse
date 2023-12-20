@@ -1,7 +1,8 @@
 #say hello to everyone
 print("Hello Python poeple!")
 
-philosophy_of_python = ("Beautiful is better than ugly", 
+philosophy_of_python = (
+"Beautiful is better than ugly", 
 "Explicit is better than implicit", "Simple is better than complex",
 "Complex is better than complicated",
 "Flat is better than nested",
