@@ -21,7 +21,7 @@ print(my_babies.title().strip()) #testing multiple methods in the with strings
 #FamousQuote
 author = "Thor  "
 quote = "  ... still worthy!  "
-motivation = f"{quote}! - {author}"
+motivation = f"{quote}! -{author}"
 print(motivation.strip())
 
 #stripping names

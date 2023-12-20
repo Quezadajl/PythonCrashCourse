@@ -1,5 +1,6 @@
-name = "james holden"
+name = "ash ketchum"
 print(name.title())
-name = "Ada Lovelace"
+name = "sophie martin lola"
 print(name.upper())
 print(name.lower()) #best case for storing data
+print(name.title())
