@@ -2,15 +2,15 @@
 first_born = "  Sophie "
 second_born = "    Martin"
 third_born = "Lola  "
-my_babies = f"   Hello love of my life {first_born}, {second_born}, and {third_born}!"
+my_babies = f"   Hello love of my life {first_born.strip()}, {second_born.strip()}, and {third_born.strip()}!"
 print(first_born.strip())
 print(second_born.lstrip())
 print(third_born.strip())
 print(my_babies.strip())
 
 #Name cases
-first_name = "Tania" # variable
-last_name = "Davila" #variable
+first_name = "Jose" # variable
+last_name = "Quezada" #variable
 full_name = f"{first_name} {last_name}" # created a function to combine the variables
 
 print(full_name.upper()) #all capitalized
