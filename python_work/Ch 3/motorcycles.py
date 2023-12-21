@@ -20,3 +20,6 @@ print(my_doggies)
 
 my_doggies.insert(2,'Lola') #Like del, you can use insert with the index number to add to a specific location
 print(my_doggies)
+
+my_doggies.append('Lomitalomation')
+print(my_doggies)
