@@ -21,5 +21,17 @@ print(my_doggies)
 my_doggies.insert(2,'Lola') #Like del, you can use insert with the index number to add to a specific location
 print(my_doggies)
 
-my_doggies.append('Lomitalomation')
+my_doggies.append('Lomitalomation!')
 print(my_doggies)
+
+#Using Pop() method removes the last item in a list, but it lets you work with that item after removing it.
+last_owned = motorcycles.pop()
+print(motorcycles)
+print(last_owned)# pop() shows that ducati was removed from the end of the list and is now assigned to the variable last_owned
+
+print(f"The last motorecycle I owned was a {last_owned.title()}.")
+#Pop() can be used to pull items from any part of the list
+
+young_pup = my_doggies.pop()
+print(young_pup)
+print(f'The youngest puppy we have is {young_pup.title().strip()}.')
