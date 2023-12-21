@@ -24,6 +24,8 @@ print(my_doggies)
 my_doggies.append('Lomitalomation!')
 print(my_doggies)
 
+############Practicing  Pop########
+
 #Using Pop() method removes the last item in a list, but it lets you work with that item after removing it.
 last_owned = motorcycles.pop()
 print(motorcycles)
@@ -35,3 +37,61 @@ print(f"The last motorecycle I owned was a {last_owned.title()}.")
 young_pup = my_doggies.pop()
 print(young_pup)
 print(f'The youngest puppy we have is {young_pup.title().strip()}.')
+
+
+
+treats = []
+treats.append('pretzels')
+treats.append('chocolate')
+treats.append('coffee')
+print(treats)
+
+first_treat = treats.pop(1) #pop allows us to use an item that has been removed from the list
+print(f'the first treat I really enjoyed was {first_treat.title()}.')
+
+#Removing an item by value
+motorcycles = ['honda', 'yamaha','suzuki', 'ducati']
+print(motorcycles)
+
+#Sometimes you won't know the position of the value you want to remove from a list. If you only know the value of the item you want..
+#...to remove, you can use the remove() method
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive) #we assiged the value to a variable; we then use this variable to tell python which value to remove
+print(motorcycles)
+print(f'\nA {too_expensive.title()} is too expensive for me.')
+
+#Try it yourself challenge for Chapter 3
+guest = []
+guest.append('martinini')
+guest.append('alola')
+guest.append('Sophilicious')
+print(guest)
+
+print(f'{guest[1]} can make it but someone else will replace them')
+guest[1] = 'Sandy'
+print(guest)
+
+
+print(f'Hello {guest} I will have a bigger table!')
+guest.insert(0,'dantin')
+guest.insert(2,'Myla')
+print(guest)
+len_guests = len(guest)
+print(f'I will be inviting {len_guests} guests!')
+print(f'The following person is invited to my dinner party: {guest[0]}')
+print(f'The following person is invited to my dinner party: {guest[1]}')
+print(f'The following person is invited to my dinner party: {guest[2]}')
+print(f'The following person is invited to my dinner party: {guest[3]}')
+print(f'The following person is invited to my dinner party: {guest[4]}')
+
+print(f'I am so sorry {guest}, I can only invite two of you!')
+first_uninvited = guest.pop(2)
+print(f'sorry {first_uninvited}, my table is smaller')
+second_uninvited = guest.pop(0)
+print(f'sorry {second_uninvited}, my table is smaller')
+print(f'thanks {guest[0]} for bringing chips, thank you {guest[1]} for bringind dip, and thank you {guest[2]} for the drinks!')
+del guest[0]
+del guest[1]
+del guest[0]
+print(guest)
+
