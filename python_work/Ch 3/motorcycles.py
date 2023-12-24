@@ -16,6 +16,7 @@ my_doggies.append('Alolamola')
 print(my_doggies)
 #Deleting and Inserting in an element from a specific place as long as you know it's index
 del my_doggies[2] #Use del and the index location to delete any element
+#Keep in mind that python starts from Zero
 print(my_doggies)
 
 my_doggies.insert(2,'Lola') #Like del, you can use insert with the index number to add to a specific location
