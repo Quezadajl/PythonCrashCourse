@@ -59,3 +59,15 @@ too_expensive = 'ducati'
 motorcycles.remove(too_expensive) #we assiged the value to a variable; we then use this variable to tell python which value to remove
 print(motorcycles)
 print(f'\nA {too_expensive.title()} is too expensive for me.')
+
+#Try it yourself challenge for Chapter 3
+guest = []
+guest.append('martinini')
+guest.append('alola')
+guest.append('Sophilicious')
+print(guest)
+
+guest[0] = 'Martinwinnie'
+guest[1] = 'Lomitalomation'
+guest[2] = 'Sophie'
+print(guest)
