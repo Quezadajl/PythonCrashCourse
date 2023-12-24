@@ -73,5 +73,30 @@ guest[2] = 'Sophie'
 print(guest)
 
 print(f'\n{guest[1]} can make it but someone else will replace them')
-guest.append('Sandy')
+guest.append('Sandy') #adding a guest
+guest[0] = 'Martin' #replacing martinwinnie
+print(guest)
+
+print(f'\nHello {guest} I will have a bigger table!')
+guest.insert(0,'dantin')
+guest.insert(2,'Myla')
+print(guest)
+len_guests = len(guest)
+print(f'\nI will be inviting {len_guests} guests!')
+print(f'\nThe following person is invited to my dinner party: {guest[0]}')
+print(f'\nThe following person is invited to my dinner party: {guest[1]}')
+print(f'\nThe following person is invited to my dinner party: {guest[2]}')
+print(f'\nThe following person is invited to my dinner party: {guest[3]}')
+print(f'\nThe following person is invited to my dinner party: {guest[4]}')
+
+print(f'\nI am so sorry {guest}, I can only invite two of you!')
+first_uninvited = guest.pop(2)
+print(f'\nsorry {first_uninvited}, my table is smaller')
+second_uninvited = guest.pop(0)
+print(f'\nsorry {second_uninvited}, my table is smaller')
+print(f'\nthanks {guest[0]} for bringing chips, thank you {guest[1]} for bringind dip, and thank you {guest[2]} for the drinks!')
+print(guest)
+del guest[0]
+del guest[1]
+del guest[0]
 print(guest)
