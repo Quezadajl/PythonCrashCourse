@@ -52,3 +52,10 @@ print(f'\nthe first treat I really enjoyed was {first_treat.title()}.')
 #Removing an item by value
 motorcycles = ['honda', 'yamaha','suzuki', 'ducati']
 print(motorcycles)
+
+#Sometimes you won't know the position of the value you want to remove from a list. If you only know the value of the item you want..
+#...to remove, you can use the remove() method
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive) #we assiged the value to a variable; we then use this variable to tell python which value to remove
+print(motorcycles)
+print(f'\nA {too_expensive.title()} is too expensive for me.')
