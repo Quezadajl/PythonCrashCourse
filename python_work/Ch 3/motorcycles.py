@@ -71,3 +71,7 @@ guest[0] = 'Martinwinnie'
 guest[1] = 'Lomitalomation'
 guest[2] = 'Sophie'
 print(guest)
+
+print(f'\n{guest[1]} can make it but someone else will replace them')
+guest.append('Sandy')
+print(guest)
