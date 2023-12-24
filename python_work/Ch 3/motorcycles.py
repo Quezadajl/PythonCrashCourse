@@ -32,11 +32,23 @@ last_owned = motorcycles.pop()
 print(motorcycles)
 print(last_owned)# pop() shows that ducati was removed from the end of the list and is now assigned to the variable last_owned
 
-print(f"The last motorecycle I owned was a {last_owned.title()}.")
+print(f"\nThe last motorecycle I owned was a {last_owned.title()}.")
 #Pop() can be used to pull items from any part of the list
 
 young_pup = my_doggies.pop()
 print(young_pup)
-print(f'The youngest puppy we have is {young_pup.title().strip()}.')
+print(f'\nThe youngest puppy we have is {young_pup.title().strip()}.')
 
 
+treats = []
+treats.append('pretzels')
+treats.append('chocolate')
+treats.append('coffee')
+print(treats)
+
+first_treat = treats.pop(1) #pop allows us to use an item that has been removed from the list as long as you point to a position
+print(f'\nthe first treat I really enjoyed was {first_treat.title()}.')
+
+#Removing an item by value
+motorcycles = ['honda', 'yamaha','suzuki', 'ducati']
+print(motorcycles)
