@@ -7,13 +7,13 @@ print(cars)
 print('\nHere is the original list:')
 print(cars)
 print('\nHere is the sorted list:')#The sorted function is a temporary sorting option
-#print(sorted(cars))
+print(sorted(cars))
 #print("\nHere is the original list again")
 #print(cars)
 
 #Reverse chronological order
-#cars.reverse()
-#print(cars)
+cars.reverse()
+print(cars)
 
 #finding the length of a list
 #length = len(cars)
