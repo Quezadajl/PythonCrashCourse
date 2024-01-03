@@ -10,11 +10,11 @@ print('\nHere is the sorted list:')#The sorted function is a temporary sorting o
 print(sorted(cars))
 #print("\nHere is the original list again")
 #print(cars)
-
+print('\nHere is the reverse list:')
 #Reverse chronological order
 cars.reverse()
 print(cars)
-
+print('\nHere is the length of the list:')
 #finding the length of a list
-#length = len(cars)
-#print(length)
+length = len(cars)
+print(length)
