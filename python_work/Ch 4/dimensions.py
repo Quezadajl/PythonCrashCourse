@@ -9,9 +9,9 @@ dimensions = (200, 50) # Tuples use parantheses instead of square brackets
 my_t = (3,) #tuple with one element
 print(f'{my_t}\n')
 
-#dimensions = (200,50)
-#for dimension in dimensions:
-#	print(f'\n{dimension}')
+dimensions = (200,50)
+for dimension in dimensions:
+	print(f'\n{dimension}')
 
 #Writing over a tuple
 #dimensions = (200,50)
