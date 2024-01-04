@@ -1,13 +1,13 @@
 #Tuples - python refers to values that cannot change as immutable, and an immutable list is called a tuple
 #Tuples can still be indexed/sliced
 dimensions = (200, 50) # Tuples use parantheses instead of square brackets
-print(dimensions[0])
-print(dimensions[1])
-print(dimensions[:1]) #using : counts everything from before or after if left blank
+#print(dimensions[0])
+#print(dimensions[1])
+#print(dimensions[:1]) #using : counts everything from before or after if left blank
 #Lets try to change one of the items
-#dimensions[0] = 150 #error code reads : 'tuple' object does not support item assignment
+#dimensions[0] = (150) #Can't change it; error code reads : 'tuple' object does not support item assignment
 my_t = (3,) #tuple with one element
-#print(f'{my_t}\n')
+print(f'{my_t}\n')
 
 #dimensions = (200,50)
 #for dimension in dimensions:
