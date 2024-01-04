@@ -19,10 +19,10 @@ print("\nOriginal dimensions:")
 for dimension in dimensions:
 	print(dimension)
 
-#dimensions = (400,100)
-#print('\nModified dimensions:')
-#for dimension in dimensions:
-#	print(dimension)
+dimensions = (400,100)
+print('\nModified dimensions:')
+for dimension in dimensions:
+	print(dimension)
 
 #Challenge 4-13
 #buffet = ('rice', 'beans', 'guac', 'salsa', 'crema')#Create a tuple of 5 foods at a buffet
