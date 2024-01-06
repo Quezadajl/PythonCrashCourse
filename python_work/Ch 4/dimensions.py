@@ -53,9 +53,14 @@ favorite_book = ['PlayerOne']
 for great_books in books:
     if great_books == favorite_book:
         # This book is my favorite, let's let everyone know!
-        print("\n%s is on of my favorite books!" % books.title())
+        print("%s is on of my favorite books! \n" % great_books.title())
     else:
         # I like these books.
-        print("\nI like %s." % books)
+        print("I like %s.  \n" % great_books)
 copy_books_tuple = books[:]
-print(copy_books_tuple)
+#print(copy_books_tuple)
+
+
+
+
+
