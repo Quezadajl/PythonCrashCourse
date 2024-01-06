@@ -32,15 +32,15 @@ for meal in buffet: #Create a for loop to print each item, meal stands as a temp
 #buffet[3] = ('fajitas') #tried to modify a tuple; immutable
 
 competition_buffet = buffet[:] #copy of the tuple# A list of desserts I like.
-food = ['Beans','Rice','crema','Salsa']
-favorite_food = ['Salsa']
+desserts = ['ice cream', 'chocolate', 'apple crisp', 'cookies']
+favorite_dessert = 'cookies'
 
-#Print the food out, but let everyone know my favorite food.
-for plate in food:
-    if plate == favorite_food:
-        # This food is my favorite, let's let everyone know!
-        print("%s is my favorite food!" % plate.title())
+#Print the desserts out, but let everyone know my favorite dessert.
+for dessert in desserts:
+    if dessert == favorite_dessert:
+        # This dessert is my favorite, let's let everyone know!
+        print("%s is my favorite dessert!" % dessert.title())
     else:
-        # I like these food, but they are not my favorite.
-        print("I like %s." % plate)
+        # I like these desserts, but they are not my favorite.
+        print("I like %s." % dessert)
 print(competition_buffet)
