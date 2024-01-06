@@ -39,8 +39,23 @@ favorite_dessert = 'cookies'
 for dessert in desserts:
     if dessert == favorite_dessert:
         # This dessert is my favorite, let's let everyone know!
-        print("\n %s is my favorite dessert!" % dessert.title()) #the % is being used a a variable that can be used in the function sentence
+        print("\n%s is my favorite dessert!" % dessert.title()) #the %s is being used a a variable that can be used in the function sentence
     else:
         # I like these desserts, but they are not my favorite.
         print("\nI like %s." % dessert)
 #print(competition_buffet)
+
+
+books = ['PlayerOne','Expanse','The Alchemist','Harry Potter']
+favorite_book = ['PlayerOne']
+
+#Print the books out, but let everyone know my favorite book.
+for great_books in books:
+    if great_books == favorite_book:
+        # This book is my favorite, let's let everyone know!
+        print("\n%s is on of my favorite books!" % books.title())
+    else:
+        # I like these books.
+        print("\nI like %s." % books)
+copy_books_tuple = books[:]
+print(copy_books_tuple)
