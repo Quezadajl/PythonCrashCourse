@@ -47,7 +47,7 @@ for dessert in desserts:
 
 
 books = ['PlayerOne','Expanse','The Alchemist','Harry Potter']
-favorite_book = 'Expanse' #To be able to search in a tuple, don't use brackets
+favorite_book = 'PlayerOne' #To be able to search in a tuple, don't use brackets
 
 #Print the books out, but let everyone know my favorite book.
 for great_books in books:
