@@ -42,12 +42,12 @@ for dessert in desserts:
         print("\n%s is my favorite dessert!" % dessert.title()) #the %s is being used a a variable that can be used in the function sentence
     else:
         # I like these desserts, but they are not my favorite.
-        print("\nI like %s." % dessert)
+        print("I like %s.  \n" % dessert)
 #print(competition_buffet)
 
 
 books = ['PlayerOne','Expanse','The Alchemist','Harry Potter']
-favorite_book = ['PlayerOne']
+favorite_book = ['Expanse']
 
 #Print the books out, but let everyone know my favorite book.
 for great_books in books:
