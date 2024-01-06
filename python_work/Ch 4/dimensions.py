@@ -27,7 +27,7 @@ my_t = (3,) #tuple with one element
 #Challenge 4-13
 buffet = ('rice', 'beans', 'guacamole', 'salsa', 'crema')#Create a tuple of 5 foods at a buffet
 #print(buffet)
-for meal in buffet: #Create a for loop to print each item
+for meal in buffet: #Create a for loop to print each item, meal stands as a temporary variable
 	print(meal)
 #buffet[3] = ('fajitas') #tried to modify a tuple; immutable
 
