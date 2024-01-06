@@ -39,8 +39,8 @@ favorite_dessert = 'cookies'
 for dessert in desserts:
     if dessert == favorite_dessert:
         # This dessert is my favorite, let's let everyone know!
-        print("%s is my favorite dessert!" % dessert.title())
+        print("\n %s is my favorite dessert!" % dessert.title()) #the % is being used a a variable that can be used in the function sentence
     else:
         # I like these desserts, but they are not my favorite.
-        print("I like %s." % dessert)
-print(competition_buffet)
+        print("\nI like %s." % dessert)
+#print(competition_buffet)
