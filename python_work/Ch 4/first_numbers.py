@@ -28,13 +28,13 @@ for value in list(range(2,10,2)):
 	stats_list.append(value**2)
 
 print(stats_list)
-#print(min(stats_list))
-#print(max(stats_list))
-#print(sum(stats_list))
+print(min(stats_list))
+print(max(stats_list))
+print(sum(stats_list))
 
 #List Comprehensions: Example below
-#exponent = [ value**2 for value in range(11)]
+exponent = [ value**2 for value in range(11)]
 #Descriptive name for the list and defining the expression with the values you want to store inside
-#print(exponent)
-#print(squares)
+print(exponent)
+print(squares)
 #This list compression composers the same function in one line instead of three or four
