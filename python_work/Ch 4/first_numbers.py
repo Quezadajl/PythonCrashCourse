@@ -23,11 +23,11 @@ for value in range(11):
 print(squares)
 
 #using simple statistics with a list of numbers
-#stats_list = []
-#for value in list(range(2,10,2)):
-#	stats_list.append(value**2)
+stats_list = []
+for value in list(range(2,10,2)):
+	stats_list.append(value**2)
 
-#print(stats_list)
+print(stats_list)
 #print(min(stats_list))
 #print(max(stats_list))
 #print(sum(stats_list))
