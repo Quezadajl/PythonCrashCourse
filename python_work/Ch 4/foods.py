@@ -12,14 +12,14 @@ friend_foods[0] =('albondigas')
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
-#my_foods.append('Pho')
-#friend_foods.append('pupusas')
+my_foods.append('Pho')
+friend_foods.append('pupusas')
 #These changes show that we have two different list that we can keep adding things to them individually 
-#print("My favorite food are:")
-#print(my_foods)
+print("\nMy UPDATE list of favorite food are:")
+print(my_foods)
 
-#print("\nMy friend's favorite foods are:")
-#print(friend_foods)
+print("\nMy friend's UPDATE list of favorite foods are:")
+print(friend_foods)
 
 #Practice 4-11
 #4.1 Challenge redux
