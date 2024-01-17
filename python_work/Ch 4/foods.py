@@ -7,7 +7,8 @@ friend_foods = my_foods[:] #Using the colon with square brackets copies everythi
 
 print("My favorite food are:")
 print(my_foods)
-
+friend_foods.insert(-1,'Potato Salad')
+friend_foods[0] =('albondigas')
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
