@@ -32,17 +32,17 @@ friends_pizza = pizza[:] #creating a copy of the pizza list
 print(friends_pizza)
 pizza.append('jalapenos')
 friends_pizza.insert(3,'ham')
-print(pizza)
-print(friends_pizza)
-#print(f"My friend's favorite pizzas are:")
-#for toppings in pizza:
-#	print(f"{toppings} pizza!\n")
+#print(pizza)
+#print(friends_pizza)
+print(f"\nMy friend's favorite pizzas are:")
+for toppings in pizza:
+	print(f"{toppings} pizza!\n")
 
 #Challenge 4-12 More Loops
-#print(f" My favorite foods are:")
-#for dishes in my_foods:
-#	print(f"{dishes.title()}!\n")
+print(f" My favorite foods are:")
+for dishes in my_foods:
+	print(f"{dishes.title()}!\n")
 
-#print(f"Some of Tania's favorite foods include:")
-#for treats in friend_foods:
-#	print(f"{treats.title()}!\n\t")
+print(f"Some of Tania's favorite foods include:")
+for treats in friend_foods:
+	print(f"{treats.title()}!\n\t")
