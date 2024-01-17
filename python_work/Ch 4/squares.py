@@ -6,7 +6,11 @@ for value in range(1,11): #We tell Python to loop through each value from 1 to 1
 print(squares)
 
 #Now for the clean-high level version of the above
-#squares = []
-#for value in range(1,11):
-#	squares.append(value**2)
-#print(squares)
+squares = []
+for value in range(1,11):
+	squares.append(value**2)
+print(squares)
+
+#another way to calculate a loop each value from 1 through 10
+square_2 = [value**2 for value in range(1,11)] #here we are using exponents to the 2nd power
+print(square_2)
