@@ -24,8 +24,8 @@ print(threes)
 cubes = [value**3 for value in range(1,11)] #here we are using exponents to the 3rd power
 print(cubes)
 
-#cubes_2 = []
-#for cube in range(1,11):
-#	cubes_2.append(cube**3)
-#print(cubes_2)
+cubes_2 = []
+for cube in range(1,11):
+	cubes_2.append(cube**3)
+print(cubes_2)
 
