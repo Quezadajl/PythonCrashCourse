@@ -23,9 +23,9 @@ print(friend_foods)
 
 #Practice 4-11
 #4.1 Challenge redux
-#pizza = ['pepperoni', 'pinapple','cheese']
-#for flavors in pizza:
-#	print(f'I love {flavors} pizza!\n')
+pizza = ['pepperoni', 'pinapple','cheese']
+for toppings in pizza:
+	print(f'\nI love {toppings} pizza!\n')
 #print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!\n')
 
 #friends_pizza = pizza[:]
