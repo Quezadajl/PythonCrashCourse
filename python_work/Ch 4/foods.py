@@ -11,37 +11,37 @@ print(my_foods)
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
-my_foods.append('Pho')
-friend_foods.append('pupusas')
+#my_foods.append('Pho')
+#friend_foods.append('pupusas')
 #These changes show that we have two different list that we can keep adding things to them individually 
-print("My favorite food are:")
-print(my_foods)
+#print("My favorite food are:")
+#print(my_foods)
 
-print("\nMy friend's favorite foods are:")
-print(friend_foods)
+#print("\nMy friend's favorite foods are:")
+#print(friend_foods)
 
 #Practice 4-11
 #4.1 Challenge redux
-pizza = ['pepperoni', 'pinapple','cheese']
-for flavors in pizza:
-	print(f'I love {flavors} pizza!\n')
-print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!\n')
+#pizza = ['pepperoni', 'pinapple','cheese']
+#for flavors in pizza:
+#	print(f'I love {flavors} pizza!\n')
+#print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!\n')
 
-friends_pizza = pizza[:]
-print(friends_pizza)
-pizza.append('jalapenos')
-friends_pizza.insert(3,'ham')
-print(pizza)
-print(friends_pizza)
-print(f"My friend's favorite pizzas are:")
-for toppings in pizza:
-	print(f"{toppings} pizza!\n")
+#friends_pizza = pizza[:]
+#print(friends_pizza)
+#pizza.append('jalapenos')
+#friends_pizza.insert(3,'ham')
+#print(pizza)
+#print(friends_pizza)
+#print(f"My friend's favorite pizzas are:")
+#for toppings in pizza:
+#	print(f"{toppings} pizza!\n")
 
 #Challenge 4-12 More Loops
-print(f" My favorite foods are:")
-for dishes in my_foods:
-	print(f"{dishes.title()}!\n")
+#print(f" My favorite foods are:")
+#for dishes in my_foods:
+#	print(f"{dishes.title()}!\n")
 
-print(f"Some of Tania's favorite foods include:")
-for treats in friend_foods:
-	print(f"{treats.title()}!\n\t")
+#print(f"Some of Tania's favorite foods include:")
+#for treats in friend_foods:
+#	print(f"{treats.title()}!\n\t")
