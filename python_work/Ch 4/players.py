@@ -9,10 +9,10 @@ print(players)
 
 
 #Using Looping through a slice
-#names = ['martin', 'sophie', 'lola', 'ash', 'taylor','chikorita']
-#print("Here are the first three players on my team:")
-#for player in names[:3]:
-#	print(player.title())
+names = ['martin', 'sophie', 'lola', 'ash', 'taylor','chikorita']
+print(f"Here are the first three players on my team:")
+for player in names[:3]:
+	print(player.title())
 	#Instead of looping through the entire list, Python loops through only the first three names
 
 #Practice: Slicing with Numbers
