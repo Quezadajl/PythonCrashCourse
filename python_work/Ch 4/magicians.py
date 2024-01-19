@@ -3,9 +3,9 @@ for magician in magicians: #use the for loop as "for every magician in the list 
 	print(magician)
 # We tell python to print the name that's just been assigned to the variable magician.
 
-#babies = ['Martini-whinnie','Sophilicious','Alolamola']
-#for doggies in babies:#doggies is the variable I assigned to each print of the list babies
-#	print(doggies)
+babies = ['Martini-whinnie','Sophilicious','Lomitalomation']
+for doggies in babies:#doggies is the variable I assigned to each print of the list babies
+	print(doggies)
 
 #magicians = ['alice','david','carolina'] #Defining the list
 #for magician in magicians: #use the for loop as "for every magician in the list of magicians, print the magician's name"
