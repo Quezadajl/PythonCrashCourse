@@ -16,9 +16,9 @@ for magician in magicians: #use the for loop as "for every magician in the list 
 print("Thank you, everyone. That was a great magic show!")# Using print without the indentation does not go with the loop
 
 #4.1 Challenge
-#pizza = ['pepperoni', 'pinapple','cheese']
-#for flavors in pizza:
-#	print(f'I love {flavors} pizza!\n')
+pizza = ['pepperoni', 'pinapple','cheese']
+for toppings in pizza:
+	print(f'I love {toppings} pizza!\n')
 #print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
 
 #4.2 Challenge
