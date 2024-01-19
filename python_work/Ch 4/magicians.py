@@ -19,12 +19,12 @@ print("Thank you, everyone. That was a great magic show!")# Using print without 
 pizza = ['pepperoni', 'pinapple','cheese']
 for toppings in pizza:
 	print(f'I love {toppings} pizza!\n')
-#print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
+print(f'I can eat {pizza[0]} pizza all the time, but the {pizza[1]} pizza with jalapenos is my favorite!')
 
 #4.2 Challenge
-#animals = ['dog', 'dragon', 'plant']
-#for pets in animals:
-#	print(f'I believe that a {pets} make the best pets!\n\t')
+animals = ['dog', 'dragon', 'plant']
+for pets in animals:
+	print(f'I believe that a {pets} makes the best pets!\n\t')
 
 #Practice
 #artists = ['Moderatto', 'The Killers', 'Taylor Swift']
