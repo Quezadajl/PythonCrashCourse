@@ -27,7 +27,7 @@ for pets in animals:
 	print(f'I believe that a {pets} makes the best pets!\n\t')
 
 #Practice
-#artists = ['Moderatto', 'The Killers', 'Taylor Swift']
-#for artist in artists:
-#	print(f'I can listen to {artist} all day!\n\t')
+artists = ['Moderatto', 'The Killers', 'Taylor Swift','Olivia Rodrigo','Daniel Me Estas Matando!']
+for artist in artists:
+	print(f'I can listen to {artist} all day!\n\t')
 
