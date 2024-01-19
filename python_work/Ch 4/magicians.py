@@ -5,7 +5,7 @@ for magician in magicians: #use the for loop as "for every magician in the list 
 
 babies = ['Martini-whinnie','Sophilicious','Lomitalomation']
 for doggies in babies: #doggies is the variable I assigned to each print of the list babies
-	print(doggies)
+	print(f'\n{doggies} is the best at cuddling\n')
 
 magicians = ['alice','david','carolina'] #Defining the list
 for magician in magicians: #use the for loop as "for every magician in the list of magicians, print the magician's name"
