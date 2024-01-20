@@ -20,8 +20,8 @@ alien_0['points'] = 5
 print(alien_0)
 print(f"The alien is now {alien_0['color']}.")
 
-#alien_0['color'] = 'yellow' #modifying values in a dictionary
-#print(f"The alien is now {alien_0['color']}.")
+alien_0['color'] = 'yellow' #modifying values in a dictionary
+print(f"The alien is now {alien_0['color']}.")
 
 #alien_0 = {'x_position' : 0, 'y_position' : 25, 'speed' : 'medium'}
 #print(f"Original position: {alien_0['x_position']}")
