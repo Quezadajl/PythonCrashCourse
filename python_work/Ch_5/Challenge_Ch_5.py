@@ -1,6 +1,6 @@
 #Hello Admin challenge
 usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin','Chimpchar'] #Creating a dictionary
-root_user = ['Admin']
+root_user = ['Lola']
 #usernames = []
 if 'totodile' in usernames:
 	print(f'Hello! thank you for logging in again.')
@@ -15,13 +15,13 @@ if 'Admin' in usernames:
 if usernames is []:
 	print('We need to find some users!')
 
-#for root in root_user:
-#	if root in usernames:
-#		print('Hello Admin, would you like to see the status of the report')
-	#if root not in usernames:
-		#print('Hello! thank you for logging in again')
-#	else:
-#		print('We need to find some users!')
+for root in root_user:
+	if root in usernames:
+		print('Hello Admin, would you like to see the status of the report')
+	if root not in usernames:
+		print('Hello! thank you for logging in again')
+	else:
+		print('We need to find some users!')
 #Next Challenge
 #current_users = ['Mario','Luigi','Pricess Peach','Toad','Yoshi']
 #new_users = ['Mario','luigi','Princess Daisy', 'Rosalina','yoshi']
