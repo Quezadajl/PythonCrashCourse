@@ -1,6 +1,6 @@
 #Hello Admin challenge
 usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin','Chimpchar'] #Creating a dictionary
-root_user = ['Lola']
+root_user = ['Admin']
 #usernames = []
 if 'totodile' in usernames:
 	print(f'Hello! thank you for logging in again.')
