@@ -1,19 +1,19 @@
 #Hello Admin challenge
-usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin','Chimpchar']
+usernames = ['totodile','Cyndaquil','Chikorita','Rowlet','Admin','Chimpchar'] #Creating a dictionary
 root_user = ['Admin']
 usernames = []
-#if 'totodile' in usernames:
-#	print(f'Hello! thank you for logging in again.')
-#if 'Cyndaquil' in usernames:
-#	print(f'Hello!, thank you for logging in again.')
-#if 'Rowlet' in usernames:
-#	print(f'Hello! thank you for logging in again.')
-#if 'Chimpchar' in usernames:
-#	print(f'Hello!, thank you for logging in again')
-#if 'Admin' in usernames:
-#	print('Hello admin, would you like to see a status report?')
-#if usernames is []:
-#	print('We need to find some users!')
+if 'totodile' in usernames:
+	print(f'Hello! thank you for logging in again.')
+if 'Cyndaquil' in usernames:
+	print(f'Hello!, thank you for logging in again.')
+if 'Rowlet' in usernames:
+	print(f'Hello! thank you for logging in again.')
+if 'Chimpchar' in usernames:
+	print(f'Hello!, thank you for logging in again')
+if 'Admin' in usernames:
+	print('Hello admin, would you like to see a status report?')
+if usernames is []:
+	print('We need to find some users!')
 
 #for root in root_user:
 #	if root in usernames:
