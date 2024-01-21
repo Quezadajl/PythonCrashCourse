@@ -44,5 +44,5 @@ print(f"New position: {alien_0['x_position']}")
 alien_0 = {'color':'green','points': 10,'speed' : 'medium'}
 print(alien_0)
 
-#del alien_0['points']
-#print(alien_0)
+del alien_0['points']
+print(alien_0)
