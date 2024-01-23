@@ -34,16 +34,16 @@ for new_user in new_users:
 		print(new_user, 'is available')
 
 #Next challenge
-#num = [1,2,3,4,5,6,7,8,9]
+num = [1,2,3,4,5,6,7,8,9,10,11,12]
 
-#for number in num:
-#	if number == 1:
-#		print('1st')
-#	elif number == 2:
-#		print('2nd')
-#	elif number == 3:
-#		print('3rd')
-#	elif number > 3:
-#		print(str(number) + 'th') # this combination of str + 'th' allows for any number in the list
+for number in num:
+	if number == 1:
+		print('1st')
+	elif number == 2:
+		print('2nd')
+	elif number == 3:
+		print('3rd')
+	elif number > 3:
+		print(str(number) + 'th') # this combination of str + 'th' allows for any number in the list
 		#..above 3 will be
 
