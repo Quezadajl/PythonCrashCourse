@@ -13,9 +13,9 @@ for snack in snacks:
 		print("I like %s." % snack)
 
 ## other Tests for inequality and equality
-#requested_topping = 'pineapple'
-#if requested_topping != 'jalapenos':
-#	print("Hold the jalapenos!")
+requested_topping = 'pineapple'
+if requested_topping != 'jalapenos':
+	print("Hold the jalapenos!")
 
 #needed_ingredients = ['doritos','popcorn','chocolate','fruit'] #Here I'm checking if these items are in the pantry
 #avail_ingredient = 'chocolate'
