@@ -68,11 +68,11 @@ else:
     print("This evaluates to False.")
 
 # Any other string, including a space, evaluates to True.
-#if ' ':
-#    print("This evaluates to True.")
-#else:
-#    print("This evaluates to False.")
+if ' ':
+    print("This evaluates to True.")
+else:
+    print("This evaluates to False.")
 
 #Overall Challenge
-#alien_names = ['al','lien','ju','andi','ego','uly','ta','pat','Lola','Dante']
-#alien_colors = ['red','green', 'blue']
+alien_names = ['al','lien','ju','andi','ego','uly','ta','pat','Lola','Dante']
+alien_colors = ['red','green', 'blue']
