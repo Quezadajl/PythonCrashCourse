@@ -56,16 +56,16 @@ for dog in dogs_present:
 	if dog in dogs_we_know:
 		print("Hello, %s!" % dog.title())#You should use %s for string formatting
 #True/False statements- The general rule is that any non-zero or non-empty value will evaluate to True
-#if -1:
-#    print("This evaluates to True.")
-#else:
-#    print("This evaluates to False.")
+if -1:
+    print("This evaluates to True.")
+else:
+    print("This evaluates to False.")
 
 # An empty string evaluates to False.
-#if '':
-#    print("This evaluates to True.")
-#else:
-#    print("This evaluates to False.")
+if '':
+    print("This evaluates to True.")
+else:
+    print("This evaluates to False.")
 
 # Any other string, including a space, evaluates to True.
 #if ' ':
