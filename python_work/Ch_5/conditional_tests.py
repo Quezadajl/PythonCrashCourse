@@ -54,7 +54,7 @@ dogs_present = ['willie', 'hootz']
 #This will go through all the dogs that are present, and greet the dogs we know
 for dog in dogs_present:
 	if dog in dogs_we_know:
-		print("Hello, %i!" % dog.title())
+		print("Hello, %s!" % dog.title())#You should use %s for string formatting
 #True/False statements- The general rule is that any non-zero or non-empty value will evaluate to True
 #if -1:
 #    print("This evaluates to True.")
