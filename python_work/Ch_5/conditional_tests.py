@@ -38,14 +38,14 @@ else:
 	print("Okay, this is a reasonable number of dogs.")
 
 #and if-else chains
-dogs = ['Sophie','Martin','Lola','Chuying','Guegene']
+dogs = ['Sophie','Martin','Lola']#,'Chuying','Guegene']
 
 if len(dogs) >= 5:
-	print("Wow,we might start a dog hostel!")
-#elif len(dogs) >= 3:
-#	print("wow, we have a lot of dogs here!")
-#else:
-#	print("Okay, this is a reasonable number of dogs.")
+	print("Wow,we might start a dog hotel!")
+elif len(dogs) >= 3:
+	print("wow, we have a lot of dogs here!")
+else:
+	print("Okay, this is a reasonable number of dogs.")
 # if the previous two conditions fail, the else condition is executed; we could keep adding elifs
 
 #of course, using lists and loops can be more clean
