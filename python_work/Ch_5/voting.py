@@ -55,21 +55,21 @@ if not_alien != alien_color:
 	print('you missed')
 
 #Stages of Life Practice
-#edad = 29
-#if edad < 2:
-#	person = 'baby'
-#elif edad < 4:
-#	person = 'toddler'
-#elif edad < 13:
-#	person = 'kid'
-#elif edad < 20:
-#	person = 'teenager'
-#elif edad < 65:
-#	person = 'Adult'
-#elif edad >= 65:
-#	person = 'elder'
+edad = 29
+if edad < 2:
+	person = 'baby'
+elif edad < 4:
+	person = 'toddler'
+elif edad < 13:
+	person = 'kid'
+elif edad < 20:
+	person = 'teenager'
+elif edad < 65:
+	person = 'Adult'
+elif edad >= 65:
+	person = 'elder'
 
-#print(f'Person is a {person}!')
+print(f'Person is a {person}!')
 
 #Favorite Fruit Excercise
 #favorite_fruits = ['Kiwi','BlueBerries','mango','Bananas']
