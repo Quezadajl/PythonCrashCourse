@@ -1,6 +1,6 @@
 #Practicing if && if-else statements
-age = 71
-#age = 17
+#age = 71
+age = 17
 if age >= 18:
 	print('You are old enough to vote!')
 	print('Have you registered to vote yet?')
@@ -12,12 +12,12 @@ else:
 
 #AMUSEMENTPARK.PY
 #The if-elif-else Chain
-#if age <= 4:
-#	print('admission is free')
-#elif age <18:
-#	print('admission is $25')
-#else:
-#	print('18 and older pay $40')
+if age <= 4:
+	print('admission is free')
+elif age <18:
+	print('admission is $25')
+else:
+	print('18 and older pay $40')
 
 #Improved VERSION
 #if age < 4:
