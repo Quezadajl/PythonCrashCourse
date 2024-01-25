@@ -72,17 +72,17 @@ elif edad >= 65:
 print(f'Person is a {person}!')
 
 #Favorite Fruit Excercise
-#favorite_fruits = ['Kiwi','BlueBerries','mango','Bananas']
-#if 'Kiwi' in favorite_fruits:
-#	print(f'You really like {favorite_fruits[0]}!')
-#if 'Bananas' in favorite_fruits:
-#	print(f'You really like bananas!')
-#if 'BlueBerries' in favorite_fruits:
-#	print(f'You really like {favorite_fruits[1]}!')	
-#if 'Strawberries' in favorite_fruits:
-#	print(f'You really like Strawberries!')
-#if 'mango' in favorite_fruits:
-#	print(f'You really like {favorite_fruits[-2]}!')
+favorite_fruits = ['Kiwi','BlueBerries','mango','Bananas']
+if 'Kiwi' in favorite_fruits:
+	print(f'You really like {favorite_fruits[0]}!')
+if 'Bananas' in favorite_fruits:
+	print(f'You really like bananas!')
+if 'BlueBerries' in favorite_fruits:
+	print(f'You really like {favorite_fruits[1]}!')	
+if 'Strawberries' in favorite_fruits:
+	print(f'You really like Strawberries!')
+if 'mango' in favorite_fruits:
+	print(f'You really like {favorite_fruits[-2]}!')
 
 #Testing Multiple conditions AND ALL of them have to pass!!: TOPPINGS.PY
 #requested_toppings = ['mushrooms','green peppers','extra cheese']
