@@ -1,6 +1,6 @@
 #Practicing if && if-else statements
 #age = 71
-age = 17
+age = 26
 if age >= 18:
 	print('You are old enough to vote!')
 	print('Have you registered to vote yet?')
@@ -24,10 +24,10 @@ if age < 4:
 	price = 0
 elif age < 18:
 	price = 25
-#elif age < 65:
-#	price = 40
-#elif age >= 65:
-	#price = 20 You don't always need an else; not using one causes the last condition to be met as well
+elif age < 65:
+	price = 40
+elif age >= 65:
+	price = 20 #You don't always need an else; not using one causes the last condition to be met as well
 else: #else can be misleading by accepting malicious data or invalid statements
 	price = 20
 print(f'Your admission cost is ${price}.')# improved maintaince by only have to modify one message
