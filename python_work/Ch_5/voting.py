@@ -40,15 +40,15 @@ if'elif' in block_of_code:
 if'if' in block_of_code:
 	print('if MORE than one block of code needs to run, use a series of independent if statements')
 
-#print('\nThe more you know!\n')
+print('\nThe more you know!\n')
 
 #Alien Colors #5-1 through 5-5
-#alien_color = ['Green','Yellow','Red']
-#not_alien = ['Blue']
-#if 'Green' in alien_color:
-#	print('5 points')
-#if 'Yellow' in alien_color:
-#	print('10 points')
+alien_color = ['Green','Yellow','Red']
+not_alien = ['Blue']
+if 'Green' in alien_color:
+	print('5 points')
+if 'Yellow' in alien_color:
+	print('10 points')
 #if 'Red' in alien_color:
 #	print('15 points')
 #if not_alien != alien_color:
