@@ -34,11 +34,11 @@ print(f'Your admission cost is ${price}.')# improved maintaince by only have to 
 
 
 #Moral of the practice
-#block_of_code = ['if','elif']
-#if'elif' in block_of_code:
-#	print("if you want only ONE block of code to run, use an if-elif-else chain")
-#if'if' in block_of_code:
-#	print('if MORE than one block of code needs to run, use a series of independent if statements')
+block_of_code = ['if','elif']
+if'elif' in block_of_code:
+	print("if you want only ONE block of code to run, use an if-elif-else chain")
+if'if' in block_of_code:
+	print('if MORE than one block of code needs to run, use a series of independent if statements')
 
 #print('\nThe more you know!\n')
 
