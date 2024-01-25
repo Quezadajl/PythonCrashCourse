@@ -49,10 +49,10 @@ if 'Green' in alien_color:
 	print('5 points')
 if 'Yellow' in alien_color:
 	print('10 points')
-#if 'Red' in alien_color:
-#	print('15 points')
-#if not_alien != alien_color:
-#	print('you missed')
+if 'Red' in alien_color:
+	print('15 points')
+if not_alien != alien_color:
+	print('you missed')
 
 #Stages of Life Practice
 #edad = 29
