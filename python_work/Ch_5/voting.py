@@ -85,9 +85,9 @@ if 'mango' in favorite_fruits:
 	print(f'You really like {favorite_fruits[-2]}!')
 
 #Testing Multiple conditions AND ALL of them have to pass!!: TOPPINGS.PY
-#requested_toppings = ['mushrooms','green peppers','extra cheese']
-#if 'mushrooms' in requested_toppings:
-#	print('Adding mushrooms.')
+requested_toppings = ['mushrooms','green peppers','extra cheese']
+if 'mushrooms' in requested_toppings:
+	print('Adding mushrooms.')
 #if 'pepperoni' in requested_toppings:
 #	print('Adding pepperoni.')
 #if 'extra cheese' in requested_toppings:
