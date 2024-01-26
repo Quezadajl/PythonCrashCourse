@@ -8,22 +8,22 @@ for car in cars:
 		print(car.title())#otherwise the value of car is anthing othar than 'bmw', title case it
 
 #Practice
-#doggos = ['Paper','chuying/Eugene','Rock','Scissors']
+doggos = ['Paper','chuying/Eugene','Rock','Scissors']
 
-#for good_dog in doggos:
-#	if good_dog =='chuying/Eugene':
-#		print(good_dog.title())
-#	else:
-#		print(f'\nBestest of Doggos!!')
+for good_dog in doggos:
+	if good_dog =='chuying/Eugene':
+		print(good_dog.title())
+	else:
+		print(f'\nBestest of Doggos!!')
 
 #Conditional statements
-#auto = ['Audi']
+auto = ['Audi']
 
-#for vehicle in auto:
-#	if vehicle == 'Audi':
-#		print(True)
-#	else:
-#		print(False)
+for vehicle in auto:
+	if vehicle == 'Audi':
+		print(True)
+	else:
+		print(False)
 
 
 #for vehicle in auto:
