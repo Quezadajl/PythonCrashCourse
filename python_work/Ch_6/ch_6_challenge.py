@@ -26,8 +26,8 @@ glossary = {'string': 'A series of characters.',
     'dictionary': "A collection of key-value pairs.",}
 print(glossary)
 
-#print(f"String:{glossary['string']}")
-#print(f"\n comment: {glossary['comment']}")
-#print(f"\n lists: {glossary['list']}")
-#print(f"\n loop: {glossary['loop']}")
-#print(f"\n dictionary:{glossary['dictionary']}")
+print(f"String:{glossary['string']}")
+print(f"\n comment: {glossary['comment']}")
+print(f"\n lists: {glossary['list']}")
+print(f"\n loop: {glossary['loop']}")
+print(f"\n dictionary:{glossary['dictionary']}")
