@@ -11,9 +11,9 @@ for key, value in user_0.items(): #include the name of a dictionary followed by 
 	print(f"Value:{value}")
 
 #use abbreviations too
-#for k,v in user_0.items():
-#	print(f"\nKey:{key}")
-#	print(f"Value:{value}")
+for k,v in user_0.items():
+	print(f"\nKey:{key}")
+	print(f"Value:{value}")
 ###################################
 #Practicing using the data from favorite_languages tab
 
