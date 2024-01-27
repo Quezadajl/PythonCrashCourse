@@ -11,11 +11,11 @@ fav_num = {'Martin':10,'Sophie':12,'Dolores':2,'Dante':9,'Mila':11}
 print(fav_num)
 print(fav_num['Martin'])
 
-#print(f"Martin's favorite number is {fav_num['Martin']}")
-#print(f"Sophie's favorite number is {fav_num['Sophie']}")
-#print(f"Dolores's favorite number is {fav_num['Dolores']}")
-#print(f"Mila's favorite number is {fav_num['Dante']}")
-#print(f"Martin's favorite number is {fav_num['Mila']}")
+print(f"Martin's favorite number is {fav_num['Martin']}")
+print(f"Sophie's favorite number is {fav_num['Sophie']}")
+print(f"Dolores's favorite number is {fav_num['Dolores']}")
+print(f"Mila's favorite number is {fav_num['Dante']}")
+print(f"Martin's favorite number is {fav_num['Mila']}")
 
 #6.3  Glossary
 
