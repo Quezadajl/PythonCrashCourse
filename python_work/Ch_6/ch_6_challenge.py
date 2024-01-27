@@ -1,4 +1,4 @@
-#6.1  Person
+#6.1  Person ; working on a dictionary
 luv = {'first_name':'Tania','last_name':'Davila','Age':29,'city':'Paris'}
 print(luv['first_name'])
 print(luv['last_name'])
@@ -19,12 +19,12 @@ print(f"Martin's favorite number is {fav_num['Mila']}")
 
 #6.3  Glossary
 
-#glossary = {'string': 'A series of characters.',
- #   'comment': 'A note in a program that the Python interpreter ignores.',
- #   'list': 'A collection of items in a particular order.',
- #   'loop': 'Work through a collection of items, one at a time.',
- #   'dictionary': "A collection of key-value pairs.",}
-#print(glossary)
+glossary = {'string': 'A series of characters.',
+    'comment': 'A note in a program that the Python interpreter ignores.',
+    'list': 'A collection of items in a particular order.',
+    'loop': 'Work through a collection of items, one at a time.',
+    'dictionary': "A collection of key-value pairs.",}
+print(glossary)
 
 #print(f"String:{glossary['string']}")
 #print(f"\n comment: {glossary['comment']}")
