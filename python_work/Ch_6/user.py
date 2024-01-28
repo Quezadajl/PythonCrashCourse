@@ -17,17 +17,17 @@ for k,v in user_0.items():
 ###################################
 #Practicing using the data from favorite_languages tab
 
-#favorite_languages = {
-#	'jen': 'python',
-#	'sarah': 'c',
-#	'edward': 'ruby',}
+favorite_languages = {
+	'jen': 'python',
+	'sarah': 'c',
+	'edward': 'ruby',}
 
-#print(favorite_languages)
-#favorite_languages['phil'] = 'python'
-#print(favorite_languages)
+print(favorite_languages)
+favorite_languages['phil'] = 'python'
+print(favorite_languages)
 
-#language = favorite_languages['sarah'].title()
-#print(f"\n\tSarah's favorite language is {language}.")
+language = favorite_languages['sarah'].title()
+print(f"\n\tSarah's favorite language is {language}.")
 
 #for name, language in favorite_languages.items():
 #	print(f"\n{name.title()}'s favorite language is {language.title()}")
