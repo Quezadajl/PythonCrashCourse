@@ -57,8 +57,8 @@ friends = ['phil','sarah']
 for name in favorite_languages.keys():
 	print(f"Hi {name.title()}.")
 	#we are going to include a special message to our friends
-#if name in friends:
-#	language = favorite_languages[name].title()
-#	print(f"\t{name.title()}, I see you love {language}!")
+if name in friends:
+	language = favorite_languages[name].title()
+	print(f"\t{name.title()}, I see you love {language}!")
 
 ###THERE IS AN ERROR ON SARAH NOT GETTING A MESSAGE!!!
