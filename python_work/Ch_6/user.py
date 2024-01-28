@@ -53,9 +53,9 @@ for name in favorite_languages.values():  # Using the values() method
 
 #Accessing the value of any key inside the loop
 
-#friends = ['phil','sarah']
-#for name in favorite_languages.keys():
-#	print(f"Hi {name.title()}.")
+friends = ['phil','sarah']
+for name in favorite_languages.keys():
+	print(f"Hi {name.title()}.")
 	#we are going to include a special message to our friends
 #if name in friends:
 #	language = favorite_languages[name].title()
