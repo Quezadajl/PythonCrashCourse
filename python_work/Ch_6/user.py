@@ -41,8 +41,8 @@ for name, language in favorite_languages.items():
 for name in favorite_languages.keys():  # Using the keys() method
 	print(name.title())
 
-#for name in favorite_languages:  #printing keys is the default behavior w/o the method keys()
-#	print(name.title())
+for name in favorite_languages:  #printing keys is the default behavior w/o the method keys()
+	print(name.title())
 
 ###############################
 
