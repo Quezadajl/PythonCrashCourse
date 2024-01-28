@@ -44,6 +44,11 @@ for name in favorite_languages.keys():  # Using the keys() method
 for name in favorite_languages:  #printing keys is the default behavior w/o the method keys()
 	print(name.title())
 
+for name in favorite_languages.values():  # Using the values() method
+	print(name.title())	
+
+
+
 ###############################
 
 #Accessing the value of any key inside the loop
