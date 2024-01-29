@@ -26,8 +26,8 @@ print(favorite_languages)
 favorite_languages['phil'] = 'python'
 print(favorite_languages)
 
-#language = favorite_languages['sarah'].title()
-#print(f"Sarah's favorite language is {language}.")
+language = favorite_languages['sarah'].title()
+print(f"Sarah's favorite language is {language}.")
 
 ###########################################
 
