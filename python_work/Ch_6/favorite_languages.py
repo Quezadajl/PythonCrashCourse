@@ -11,14 +11,15 @@ print(favorite_games)
 game = favorite_games['Luisito'].title()
 print(f"Luisito's favorite game is {game}.")
 
+
 #########################################
 
-#favorite_languages = {
-#	'jen': 'python',
-#	'sarah': 'c',
-#	'edward': 'ruby',}
+favorite_languages = {
+	'jen': 'python',
+	'sarah': 'c',
+	'edward': 'ruby',}
 
-#print(favorite_languages)
+print(favorite_languages)
 #favorite_languages['phil'] = 'python'
 #print(favorite_languages)
 
