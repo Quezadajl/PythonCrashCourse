@@ -11,6 +11,9 @@ print(favorite_games)
 game = favorite_games['Luisito'].title()
 print(f"Luisito's favorite game is {game}.")
 
+for key, value in favorite_games.items(): #include the name of a dictionary followed by method items()
+	print(f"\nKey:{key}")
+	print(f"Value:{value}")
 
 #########################################
 
