@@ -1,36 +1,36 @@
 #Creating a Dictionary from scratch of similar objects
-favorite_games = {
-	'juandiego': 'Yakuza',
-	'Ulysses':'Fortnite',
-	'Paty':'Phase 10',
-	'Linda':'Marble Game',
-}
-print(favorite_games)
-favorite_games['Luisito'] = 'pokemon'
-print(favorite_games)
-game = favorite_games['Luisito'].title()
-game1 = favorite_games['juandiego'].title()
-print(f"Luisito's favorite game is {game}.\n")
-print(f"juandiego's favorite game is {game1}.\n")
+#favorite_games = {
+#	'juandiego': 'Yakuza',
+#	'Ulysses':'Fortnite',
+#	'Paty':'Phase 10',
+#	'Linda':'Marble Game',
+#}
+#print(favorite_games)
+#favorite_games['Luisito'] = 'pokemon'
+#print(favorite_games)
+#game = favorite_games['Luisito'].title()
+#game1 = favorite_games['juandiego'].title()
+#print(f"Luisito's favorite game is {game}.\n")
+#print(f"juandiego's favorite game is {game1}.\n")
 
 
-for key, value in favorite_games.items(): #include the name of a dictionary followed by method items()
-	print(f"\nKey:{key}")
-	print(f"Value:{value}")
+#for key, value in favorite_games.items(): #include the name of a dictionary followed by method items()
+#	print(f"\nKey:{key}")
+#	print(f"Value:{value}")
 
 #########################################
 
-favorite_languages = {
-	'jen': 'python',
-	'sarah': 'c',
-	'edward': 'ruby',}
+#favorite_languages = {
+#	'jen': 'python',
+#	'sarah': 'c',
+#	'edward': 'ruby',}
 
-print(favorite_languages)
-favorite_languages['phil'] = 'python'
-print(favorite_languages)
+#print(favorite_languages)
+#favorite_languages['phil'] = 'python'
+#print(favorite_languages)
 
-language = favorite_languages['sarah'].title()
-print(f"Sarah's favorite language is {language}.")
+#language = favorite_languages['sarah'].title()
+#print(f"Sarah's favorite language is {language}.")
 
 ###########################################
 
