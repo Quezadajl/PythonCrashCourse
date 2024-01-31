@@ -48,8 +48,8 @@ alien_0 = {
 point_value = alien_0.get('points','No point value assigned.')
 print(point_value)
 
-#color_get = alien_0.get('color', 'No color value assigned')
-#print(color_get)
+color_get = alien_0.get('color', 'No color value assigned')
+print(color_get)
 
 #print(favorite_games['juandiego']) #print person's fav game
 	
