@@ -35,6 +35,9 @@ print(f"Sarah's favorite language is {language}.")
 if 'erin' not in favorite_languages.keys():
 	print("Erin, please take our poll!")
 
+for name in sorted(favorite_languages.keys()):
+	print(f"{name.title()}, thank you for taking the poll.")
+
 ###########################################
 
 #Using get() to Access Values
