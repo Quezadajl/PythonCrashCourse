@@ -20,17 +20,17 @@
 
 #########################################
 
-#favorite_languages = {
-#	'jen': 'python',
-#	'sarah': 'c',
-#	'edward': 'ruby',}
+favorite_languages = {
+	'jen': 'python',
+	'sarah': 'c',
+	'edward': 'ruby',}
 
-#print(favorite_languages)
-#favorite_languages['phil'] = 'python'
-#print(favorite_languages)
+print(favorite_languages)
+favorite_languages['phil'] = 'python'
+print(favorite_languages)
 
-#language = favorite_languages['sarah'].title()
-#print(f"Sarah's favorite language is {language}.")
+language = favorite_languages['sarah'].title()
+print(f"Sarah's favorite language is {language}.")
 
 ###########################################
 
@@ -50,6 +50,4 @@ print(point_value)
 
 color_get = alien_0.get('color', 'No color value assigned')
 print(color_get)
-
-#print(favorite_games['juandiego']) #print person's fav game
 	
