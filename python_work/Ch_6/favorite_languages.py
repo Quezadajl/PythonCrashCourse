@@ -37,10 +37,18 @@ if 'erin' not in favorite_languages.keys():
 
 for name in sorted(favorite_languages.keys()):
 	print(f"{name.title()}, thank you for taking the poll.")
-
+###### Looping through All values in a Dictionary ####
 print("The following languages have been mentioned:")
 for language in favorite_languages.values():
 	print(language.title())
+
+##### Using Set() will only pull the UNIQUE values from a dictionary###
+
+print("The following UNIQUE languages have been mentioned:")
+for language in set(favorite_languages.values()):
+	print(language.title())
+
+
 
 ###########################################
 
