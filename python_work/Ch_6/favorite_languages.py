@@ -32,6 +32,9 @@ print(favorite_languages)
 language = favorite_languages['sarah'].title()
 print(f"Sarah's favorite language is {language}.")
 
+if 'erin' not in favorite_languages.keys():
+	print("Erin, please take our poll!")
+
 ###########################################
 
 #Using get() to Access Values
