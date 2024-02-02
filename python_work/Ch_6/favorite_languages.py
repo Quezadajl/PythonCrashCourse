@@ -68,6 +68,26 @@ print(person_0['age'])
 print(person_0['city'])
 print(person_0)
 
+## 6.2
+#Use a dictionary to store people’s favorite numbers.
+#Think of five names, and use them as keys in your dictionary. Think of a favorite
+#number for each person, and store each as a value in your dictionary. Print
+#each person’s name and their favorite number. For even more fun, poll a few
+#friends and get some actual data for your program.
+
+fav_numbers = {
+	'Martin': 10,
+	'Lola': 2,
+	'Sophie': 12,
+	'sookie': 100,
+	'elsa':1,
+}
+
+print("Martin's favorite number is " + str(fav_numbers['Martin']))
+#print("William's favorite number is " + str(fav_numbers['william']))
+
+
+
 ###########################################
 
 #Using get() to Access Values
