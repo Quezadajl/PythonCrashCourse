@@ -84,7 +84,7 @@ fav_numbers = {
 }
 
 print("Martin's favorite number is " + str(fav_numbers['Martin']))
-#print("William's favorite number is " + str(fav_numbers['william']))
+print("Sophie's favorite number is " + str(fav_numbers['Sophie']))
 
 
 
