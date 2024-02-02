@@ -48,7 +48,25 @@ print("The following UNIQUE languages have been mentioned:")
 for language in set(favorite_languages.values()):
 	print(language.title())
 
+####-----#####	
 
+## 6.1
+#Use a dictionary to store information about a person you know.
+#Store their first name, last name, age, and the city in which they live. You
+#should have keys such as first_name, last_name, age, and city. Print each
+#piece of information stored in your dictionary.
+
+person_0 = {
+	'first_name': 'Allie',
+	'last_name': 'Martin',
+	'age': 26,
+	'city': 'Talmo'
+}
+print(person_0['first_name'])
+#print(person_0['last_name'])
+#print(person_0['age'])
+#print(person_0['city'])
+#print(person_0)
 
 ###########################################
 
