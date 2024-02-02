@@ -25,28 +25,28 @@ favorite_languages = {
 	'sarah': 'c',
 	'edward': 'ruby',}
 
-print(favorite_languages)
+#print(favorite_languages)
 favorite_languages['phil'] = 'python'
-print(favorite_languages)
+#print(favorite_languages)
 
 language = favorite_languages['sarah'].title()
-print(f"Sarah's favorite language is {language}.")
+#print(f"Sarah's favorite language is {language}.")
 
-if 'erin' not in favorite_languages.keys():
-	print("Erin, please take our poll!")
+#if 'erin' not in favorite_languages.keys():
+	#print("Erin, please take our poll!")
 
-for name in sorted(favorite_languages.keys()):
-	print(f"{name.title()}, thank you for taking the poll.")
+#for name in sorted(favorite_languages.keys()):
+	#print(f"{name.title()}, thank you for taking the poll.")
 ###### Looping through All values in a Dictionary ####
-print("The following languages have been mentioned:")
-for language in favorite_languages.values():
-	print(language.title())
+#print("The following languages have been mentioned:")
+#for language in favorite_languages.values():
+	#print(language.title())
 
 ##### Using Set() will only pull the UNIQUE values from a dictionary###
 
-print("The following UNIQUE languages have been mentioned:")
-for language in set(favorite_languages.values()):
-	print(language.title())
+#print("The following UNIQUE languages have been mentioned:")
+#for language in set(favorite_languages.values()):
+	#print(language.title())
 
 ####-----#####	
 
@@ -57,13 +57,13 @@ for language in set(favorite_languages.values()):
 #piece of information stored in your dictionary.
 
 person_0 = {
-	'first_name': 'Allie',
-	'last_name': 'Martin',
-	'age': 26,
-	'city': 'Talmo'
+	'first_name': 'Jose',
+	'last_name': 'Quezada',
+	'age': 30,
+	'city': 'Franklin'
 }
 print(person_0['first_name'])
-#print(person_0['last_name'])
+print(person_0['last_name'])
 #print(person_0['age'])
 #print(person_0['city'])
 #print(person_0)
