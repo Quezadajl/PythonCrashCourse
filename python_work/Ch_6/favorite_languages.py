@@ -86,7 +86,31 @@ fav_numbers = {
 print("Martin's favorite number is " + str(fav_numbers['Martin']))
 print("Sophie's favorite number is " + str(fav_numbers['Sophie']))
 
+##########################################
 
+## 6.3
+#A Python dictionary can be used to model an actual dictionary.
+#However, to avoid confusion, let’s call it a glossary.
+	#Print each word and its meaning as neatly formatted output. You might
+	#print the word followed by a colon and then its meaning, or print the word
+	#on one line and then print its meaning indented on a second line. Use the
+	#newline character (\n) to insert a blank line between each word-meaning
+	#pair in your output.
+
+glossary = {
+	'concatenate': 'to join two strings or other applicable object ' +
+		'types together.',
+	'for loops': 'for loops are used to perform some action on each ' +
+		'item in a list.',
+	'lists': 'lists are used to store multiple objects together',
+	'if-elif-else': 'if-elif-else statements can be used to evaluate ' +
+		'if an element meets certain criteria and executes blocks of ' +
+		'code based on which (if any) of these criteria are met.',
+}
+print('concatenate :')
+#print(glossary['concatenate'] + '\n')
+#print('for loops :')
+#print(glossary['for loops'])
 
 ###########################################
 
