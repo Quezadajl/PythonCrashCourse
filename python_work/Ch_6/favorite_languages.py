@@ -109,8 +109,8 @@ glossary = {
 }
 print('concatenate :')
 print(glossary['concatenate'] + '\n')
-#print('for loops :')
-#print(glossary['for loops'])
+print('for loops :')
+print(glossary['for loops'])
 
 ###########################################
 
