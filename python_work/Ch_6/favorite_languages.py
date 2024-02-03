@@ -108,7 +108,7 @@ glossary = {
 		'code based on which (if any) of these criteria are met.',
 }
 print('concatenate :')
-#print(glossary['concatenate'] + '\n')
+print(glossary['concatenate'] + '\n')
 #print('for loops :')
 #print(glossary['for loops'])
 
