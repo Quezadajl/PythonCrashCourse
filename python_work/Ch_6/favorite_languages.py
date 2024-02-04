@@ -151,6 +151,30 @@ print('\n')
 for country in rivers.values():
 	print(country)
 
+#########################################
+
+## 6.6 Polling. Use the code in favorite_languages.py (page 104)
+#• Make a list of people who should take the favorite languages poll. Include
+#some names that are already in the dictionary and some that are not.
+#• Loop through the list of people who should take the poll. If they have
+#already taken the poll, print a message thanking them for responding.
+#If they have not yet taken the poll, print a message inviting them to take
+#the poll.
+favorite_languages = {
+	'jen': 'python',
+	'sarah': 'c',
+	'edward': 'ruby',
+	'phil': 'python',
+}
+
+#poll_list = ['edward', 'allie', 'william', 'sarah', 'luke']
+
+#for name in poll_list:
+#	if name in favorite_languages.keys():
+#		print(name.title() + ", thank you for taking the favorite languages poll.")
+#	else:
+#		print(name.title() + ", please go take the poll.")
+
 ###########################################
 
 
