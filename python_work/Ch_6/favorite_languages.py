@@ -172,8 +172,8 @@ poll_list = ['edward', 'allie', 'william', 'sarah', 'luke']
 for name in poll_list:
 	if name in favorite_languages.keys():
 		print(name.title() + ", thank you for taking the favorite languages poll.")
-#	else:
-#		print(name.title() + ", please go take the poll.")
+	else:
+		print(name.title() + ", please go take the poll.")
 
 ###########################################
 
