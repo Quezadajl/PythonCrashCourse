@@ -184,13 +184,13 @@ for name in poll_list:
 alien_0 = {
 	'color': 'green', 
 	'speed':'slow', 
-	'points':0,
+	#'points':0,
 	}
 #Working around the traceback error especifically for this, we have used the get method to bypass it
 #The get() method requires a key for first argument, and an optional second argument to return a value..
 #..if first argument is null
-#point_value = alien_0.get('points','No point value assigned.')
-#print(point_value)
+point_value = alien_0.get('points','No point value assigned.')
+print(point_value)
 
 #color_get = alien_0.get('color', 'No color value assigned')
 #print(color_get)
