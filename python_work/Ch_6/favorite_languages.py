@@ -147,9 +147,9 @@ for river, country in rivers.items():
 print('\n')
 for river in rivers.keys():
 	print(river)
-#print('\n')
-#for country in rivers.values():
-#	print(country)
+print('\n')
+for country in rivers.values():
+	print(country)
 
 ###########################################
 
