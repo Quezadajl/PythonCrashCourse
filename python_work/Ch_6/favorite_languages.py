@@ -194,4 +194,5 @@ print(point_value)
 
 color_get = alien_0.get('color', 'No color value assigned')
 print(color_get)
-	
+
+#print(alien_0['color'])	
