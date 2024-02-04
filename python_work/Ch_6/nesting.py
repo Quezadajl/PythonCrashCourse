@@ -14,9 +14,17 @@ for alien in aliens:
 aliens = []
 
 #Make 30 green aliens
-for alien_number in range(30):
-	new_alien = {'color':'green', 'point':5}
-	aliens.append(new_alien)
+for alien_number in range(30): #how many times this will loop
+	new_alien = {'color':'green', 'point':5} # create a new alien
+	aliens.append(new_alien) # every new alien created, append to empty dict
+
+#Using a for loop and an if statement to change the color of aliens
+
+for alien in aliens[:3]:
+	if alien['color'] == 'green':
+		alien['color'] = 'yellow'
+		alien['speed'] = 'medium'
+		alien['points'] = 10
 
 #Show the first 5 aliens
 for alien in aliens[:5]:
@@ -26,4 +34,5 @@ print("...")
 #show how many aliens have been created
 
 print(F"Total number of aliens:{len(aliens)}.")
+
 
