@@ -182,7 +182,7 @@ for name in poll_list:
 # alien_no_points.py
 
 alien_0 = {
-	'color': 'green', 
+	#'color': 'green', 
 	'speed':'slow', 
 	#'points':0,
 	}
@@ -192,6 +192,6 @@ alien_0 = {
 point_value = alien_0.get('points','No point value assigned.')
 print(point_value)
 
-#color_get = alien_0.get('color', 'No color value assigned')
-#print(color_get)
+color_get = alien_0.get('color', 'No color value assigned')
+print(color_get)
 	
