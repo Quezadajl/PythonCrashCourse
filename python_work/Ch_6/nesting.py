@@ -5,4 +5,6 @@ alien_2 = {'color':'red', 'point':15}
 
 aliens = [alien_0,alien_1,alien_2] # here is where the nesting takes place; a list of dictionaries
 
-print(aliens)
+#loop through it
+for alien in aliens:
+ print(alien)
