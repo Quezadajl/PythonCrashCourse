@@ -83,8 +83,8 @@ fav_numbers = {
 	'elsa':1,
 }
 
-print("Martin's favorite number is " + str(fav_numbers['Martin']))
-print("Sophie's favorite number is " + str(fav_numbers['Sophie']))
+#print("Martin's favorite number is " + str(fav_numbers['Martin']))
+#print("Sophie's favorite number is " + str(fav_numbers['Sophie']))
 
 ##########################################
 
@@ -107,10 +107,10 @@ glossary = {
 		'if an element meets certain criteria and executes blocks of ' +
 		'code based on which (if any) of these criteria are met.',
 }
-print('concatenate :')
-print(glossary['concatenate'] + '\n')
-print('for loops :')
-print(glossary['for loops'])
+#print('concatenate :')
+#print(glossary['concatenate'] + '\n')
+#print('for loops :')
+#print(glossary['for loops'])
 
 ###########################################
 ## 6.4
@@ -123,8 +123,36 @@ print(glossary['for loops'])
 
 for word, definition in glossary.items():
 	print(word + " :\n" + definition + '\n')
-	
+
 ###########################################
+
+## 6.5
+#6-5. Rivers: Make a dictionary containing three major rivers and the country
+#each river runs through. One key-value pair might be 'nile': 'egypt'.
+#• Use a loop to print a sentence about each river, such as The Nile runs
+#through Egypt.
+#• Use a loop to print the name of each river included in the dictionary.
+#• Use a loop to print the name of each country included in the dictionary.
+
+rivers = {
+	'mississippi': 'the united states',
+	'nile': 'egypt',
+	'amazon': 'brazil',
+	'harpeth':'Franklin'
+	'Cumberland':'Nashville'
+}
+
+for river, country in rivers.items():
+	print("The " + river.title() + " river runs through " + country.title() + ".")
+#print('\n')
+#for river in rivers.keys():
+#	print(river)
+#print('\n')
+#for country in rivers.values():
+#	print(country)
+
+###########################################
+
 
 #Using get() to Access Values
 # alien_no_points.py
