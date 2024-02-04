@@ -167,7 +167,7 @@ favorite_languages = {
 	'phil': 'python',
 }
 
-#poll_list = ['edward', 'allie', 'william', 'sarah', 'luke']
+poll_list = ['edward', 'allie', 'william', 'sarah', 'luke']
 
 #for name in poll_list:
 #	if name in favorite_languages.keys():
