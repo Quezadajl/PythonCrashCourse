@@ -142,8 +142,8 @@ rivers = {
 	'Cumberland':'Nashville'
 }
 
-for river, country in rivers.items():
-	print("The " + river.title() + " river runs through " + country.title() + ".")
+#for river, country in rivers.items():
+#	print("The " + river.title() + " river runs through " + country.title() + ".")
 #print('\n')
 #for river in rivers.keys():
 #	print(river)
@@ -165,9 +165,9 @@ alien_0 = {
 #Working around the traceback error especifically for this, we have used the get method to bypass it
 #The get() method requires a key for first argument, and an optional second argument to return a value..
 #..if first argument is null
-point_value = alien_0.get('points','No point value assigned.')
-print(point_value)
+#point_value = alien_0.get('points','No point value assigned.')
+#print(point_value)
 
-color_get = alien_0.get('color', 'No color value assigned')
-print(color_get)
+#color_get = alien_0.get('color', 'No color value assigned')
+#print(color_get)
 	
