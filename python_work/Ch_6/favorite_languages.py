@@ -142,8 +142,8 @@ rivers = {
 	'Cumberland':'Nashville'
 }
 
-#for river, country in rivers.items():
-#	print("The " + river.title() + " river runs through " + country.title() + ".")
+for river, country in rivers.items():
+	print("The " + river.title() + " river runs through " + country.title() + ".")
 #print('\n')
 #for river in rivers.keys():
 #	print(river)
