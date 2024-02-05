@@ -20,8 +20,8 @@ for alien_number in range(30): #how many times this will loop
 
 #Using a for loop and an if statement to change the color of aliens
 
-for alien in aliens[:3]:
-	if alien['color'] == 'green':
+for alien in aliens[:3]: #since we only want to change the first 3 aliens we only loop through the slice
+	if alien['color'] == 'green': #thsi if statement make sure we only change green aliens to yellow
 		alien['color'] = 'yellow'
 		alien['speed'] = 'medium'
 		alien['points'] = 10
@@ -34,5 +34,22 @@ print("...")
 #show how many aliens have been created
 
 print(F"Total number of aliens:{len(aliens)}.")
+print("\n")
 
+#A list inside a Dictionary(reverse of the example from above)
 
+#
+
+#store information about a pizza being ordered
+
+pizza = {
+	'crust':'thick',
+	'toppings':['mushrooms','extra cheese'], #Here is the list
+	}
+
+# Summarize the order.
+print(f"You ordered a {pizza ['crust']} -- crust pizza "
+	"with the following toppings:")
+
+for topping in pizza['toppings']:
+	print(f"\t{topping}")
