@@ -44,7 +44,7 @@ print("\n")
 
 pizza = {
 	'crust':'thick',
-	'toppings':['mushrooms','extra cheese'], #Here is the list
+	'toppings':['mushrooms','extra cheese','pineapple'], #Here is the list[] inside the dictionary {}
 	}
 
 # Summarize the order.
