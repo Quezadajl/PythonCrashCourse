@@ -26,6 +26,12 @@ for alien in aliens[:3]: #since we only want to change the first 3 aliens we onl
 		alien['speed'] = 'medium'
 		alien['points'] = 10
 
+for alien in aliens[:6]: #since we only want to change the first 3 aliens we only loop through the slice
+	if alien['color'] == 'yellow': #thsi if statement make sure we only change green aliens to yellow
+		alien['color'] = 'red'
+		alien['speed'] = 'fast'
+		alien['points'] = 15
+
 #Show the first 5 aliens
 for alien in aliens[:5]:
 	print(alien)
