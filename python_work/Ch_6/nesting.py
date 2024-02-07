@@ -58,7 +58,8 @@ for topping in pizza['toppings']:
 ## You can nest a list inside a dictionary any time you want more than one value to be assosciated with a single key in a dictionary
 
 favorite_languages = {
-	'jen':['python','ruby']
+	'jen':['python','ruby'],
+	'sarah':['C']
 }
 
 for name, languages in favorite_languages.items():
