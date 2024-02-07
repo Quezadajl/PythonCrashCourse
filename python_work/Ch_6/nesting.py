@@ -59,7 +59,8 @@ for topping in pizza['toppings']:
 
 favorite_languages = {
 	'jen':['python','ruby'],
-	'sarah':['C']
+	'sarah':['C'],
+	'edward':['ruby','go']
 }
 
 for name, languages in favorite_languages.items():
