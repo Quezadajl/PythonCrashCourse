@@ -54,8 +54,9 @@ pizza = {
 	}
 
 # Summarize the order.
-print(f"You ordered a {pizza ['crust']} -- crust pizza "
-	"with the following toppings:")
+print(f"You ordered a {pizza ['crust']} -- crust pizza " # This line shows how to break a long line -- and end the line with a quotation mark
+
+	"with the following toppings:") #indent the next line, add opening quotation marks and continue string
 
 for topping in pizza['toppings']:
 	print(f"\t{topping}")
@@ -65,11 +66,11 @@ for topping in pizza['toppings']:
 
 favorite_languages = {
 	'jen':['python','ruby'],
-	'sarah':['C'],
+	'sarah':['C#','javascript'],
 	'edward':['ruby','go'],
-	#'phil':['python','haskell','SQL']
+	'phil':['python','haskell','SQL']
 }
-
+# Here you are running a two loops for each part of the dictionary
 for name, languages in favorite_languages.items():
 	print(f"\n{name.title()}'s favorite languages are:")
 	for language in languages:
