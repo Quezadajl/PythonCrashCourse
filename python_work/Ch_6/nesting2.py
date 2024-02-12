@@ -34,12 +34,12 @@ person_1 = {
 #	'city': 'Talmo'
 }
 
-#person_2 = {
-#	'first_name': 'Taylor',
+person_2 = {
+	'first_name': 'Taylor',
 #	'last_name': 'Martin',
 #	'age': 27,
 #	'city': 'Jefferson'
-#}
+}
 
 #persons = [person_0, person_1, person_2]
 
