@@ -50,5 +50,5 @@ person_2 = {
 
 persons = [person_0, person_1, person_2]
 
-#for person in persons:
-#	print(person)
+for person in persons:
+	print(person)
