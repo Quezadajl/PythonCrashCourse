@@ -27,12 +27,12 @@ for username, user_info in users.items(): # we loop through the user's info
 #dictionaries in a list called people. Loop through your list of people. As you
 #loop through the list, print everything you know about each person.
 
-#person_1 = {
-#	'first_name': 'William',
-#	'last_name': 'Martin',
+person_1 = {
+	'first_name': 'Dwight',
+	'last_name': 'Shrute',
 #	'age': 29,
 #	'city': 'Talmo'
-#}
+}
 
 #person_2 = {
 #	'first_name': 'Taylor',
