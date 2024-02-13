@@ -30,20 +30,20 @@ for username, user_info in users.items(): # we loop through the user's info
 person_0 = {
 	'first_name': 'J',
 	'last_name': 'D',
-#	'age': 29,
+	'age': 29,
 #	'city': 'Talmo'
 }
 
 person_1 = {
 	'first_name': 'Dwight',
 	'last_name': 'Shrute',
-#	'age': 29,
+	'age': 33,
 #	'city': 'Talmo'
 }
 
 person_2 = {
 	'first_name': 'Jim',
-#	'last_name': 'Howard',
+	'last_name': 'Howard',
 #	'age': 27,
 #	'city': 'Jefferson'
 }
