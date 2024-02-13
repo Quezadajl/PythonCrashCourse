@@ -38,7 +38,7 @@ person_1 = {
 	'first_name': 'Dwight',
 	'last_name': 'Shrute',
 	'age': 33,
-#	'city': 'Talmo'
+	'city': 'Talmo'
 }
 
 person_2 = {
