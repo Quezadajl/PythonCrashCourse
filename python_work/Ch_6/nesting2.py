@@ -44,8 +44,8 @@ person_1 = {
 person_2 = {
 	'first_name': 'Jim',
 	'last_name': 'Howard',
-#	'age': 27,
-#	'city': 'Jefferson'
+	'age': 27,
+	'city': 'Jefferson'
 }
 
 persons = [person_0, person_1, person_2]
