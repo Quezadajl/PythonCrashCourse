@@ -52,3 +52,30 @@ persons = [person_0, person_1, person_2]
 
 for person in persons:
 	print(person)
+
+## 6.8 Pets
+#Make several dictionaries, where the name of each dictionary is the
+#name of a pet. In each dictionary, include the kind of animal and the owner’s
+#name. Store these dictionaries in a list called pets. Next, loop through your list
+#and as you do print everything you know about each pet.
+
+Martin = {
+#	'species': 'cat',
+#	'color': 'calico',
+#	'owner': 'allie',
+}
+Sophie = {
+#	'species': 'cat',
+#	'color': 'black',
+#	'owner': 'william',
+}
+Lola = {
+#	'species': 'dog',
+#	'color': 'tan',
+#	'owner': 'joe',
+}
+
+pets = [Martin, Sophie, Lola]
+
+#for pet in pets:
+#	print(pet)
