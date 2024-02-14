@@ -88,9 +88,9 @@ pets = [Martin, Sophie, Lola]
 #each person’s name and their favorite places.
 
 favorite_places = {
-#	'william': ['lake tahoe', 'maldives', 'talmo'],
-#	'allie': ['talmo', 'mexico', 'bahamas'],
-#	'luke': ['home', 'nanas', 'grams'],
+#	'Joselit': ['Beach', 'Rome', 'Harpeth River'],
+#	'Tania': ['Rome', 'Paris', 'New York'],
+#	'Martin': ['home', 'couch', 'park'],
 }
 
 #for name, places in favorite_places.items():
