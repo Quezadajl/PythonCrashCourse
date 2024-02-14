@@ -77,5 +77,7 @@ Lola = {
 
 pets = [Martin, Sophie, Lola]
 
-for pet in pets:
-	print(pet)
+#for pet in pets:
+#	print(pet)
+
+
