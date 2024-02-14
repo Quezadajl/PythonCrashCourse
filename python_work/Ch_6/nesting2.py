@@ -65,9 +65,9 @@ Martin = {
 	'owner': 'Joselit',
 }
 Sophie = {
-#	'species': 'Chihuahua',
-#	'color': 'brown',
-#	'owner': 'Ojitos',
+	'species': 'Chihuahua',
+	'color': 'brown',
+	'owner': 'Ojitos',
 }
 Lola = {
 #	'species': 'Hairy mix',
