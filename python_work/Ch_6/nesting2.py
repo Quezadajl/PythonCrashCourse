@@ -60,19 +60,19 @@ for person in persons:
 #and as you do print everything you know about each pet.
 
 Martin = {
-#	'species': 'cat',
-#	'color': 'calico',
-#	'owner': 'allie',
+	'species': 'Mix Lab',
+	'color': 'black/gold',
+	'owner': 'Joselit',
 }
 Sophie = {
-#	'species': 'cat',
-#	'color': 'black',
-#	'owner': 'william',
+#	'species': 'Chihuahua',
+#	'color': 'brown',
+#	'owner': 'Ojitos',
 }
 Lola = {
-#	'species': 'dog',
-#	'color': 'tan',
-#	'owner': 'joe',
+#	'species': 'Hairy mix',
+#	'color': 'Oreo',
+#	'owner': 'Joselit',
 }
 
 pets = [Martin, Sophie, Lola]
