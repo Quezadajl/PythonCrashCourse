@@ -70,9 +70,9 @@ Sophie = {
 	'owner': 'Ojitos',
 }
 Lola = {
-#	'species': 'Hairy mix',
-#	'color': 'Oreo',
-#	'owner': 'Joselit',
+	'species': 'Hairy mix',
+	'color': 'Oreo',
+	'owner': 'Joselit',
 }
 
 pets = [Martin, Sophie, Lola]
