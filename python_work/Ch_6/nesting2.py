@@ -48,10 +48,10 @@ person_2 = {
 	'city': 'Jefferson'
 }
 
-persons = [person_0, person_1, person_2]
+#persons = [person_0, person_1, person_2]
 
-for person in persons:
-	print(person)
+#for person in persons:
+#	print(person)
 
 ## 6.8 Pets
 #Make several dictionaries, where the name of each dictionary is the
@@ -77,5 +77,5 @@ Lola = {
 
 pets = [Martin, Sophie, Lola]
 
-#for pet in pets:
-#	print(pet)
+for pet in pets:
+	print(pet)
