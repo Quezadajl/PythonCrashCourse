@@ -88,7 +88,7 @@ pets = [Martin, Sophie, Lola]
 #each person’s name and their favorite places.
 
 favorite_places = {
-#	'Joselit': ['Beach', 'Rome', 'Harpeth River'],
+	'Joselit': ['Beach', 'Rome', 'Harpeth River'],
 #	'Tania': ['Rome', 'Paris', 'New York'],
 #	'Martin': ['home', 'couch', 'park'],
 }
