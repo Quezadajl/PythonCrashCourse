@@ -93,7 +93,9 @@ favorite_places = {
 	'Martin': ['home', 'couch', 'park'],
 }
 
-#for name, places in favorite_places.items():
-#	print(name.title() + ", your favorite places are:")
-#	for place in places:
-#		print("\t" + place.title())
+for name, places in favorite_places.items():
+	print(name.title() + ", your favorite places are:")
+	for place in places:
+		print("\t" + place.title())
+
+
