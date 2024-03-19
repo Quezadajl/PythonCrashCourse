@@ -4,5 +4,5 @@ print(message)
 #for these exercises, use your terminal to get the input prompt
 
 #greeter.py sample
-name = input("Please enter your name: Joselit")
+name = input("Please enter your name: ")
 print(f"\nHello,{name}!")
